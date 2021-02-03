@@ -1,0 +1,45 @@
+Bias (Q28): Most news media are biased against my views:
+
+  1: Strongly agree
+  2: Agree
+  3: Somewhat agree
+  4: Neither agree nor disagree
+  5: Somewhat disagree
+  6: Disagree
+  7: Strongly disagree
+
+Voter (Q11): Did you vote in the last midterm election
+
+  1: Yes
+  2: No
+
+Political_lean (Q21): Where would you place your political perspective
+on this scale?
+
+  1: Liberal
+  7: Conservative
+
+Article_Political_lean (Q43): Where would you place the political
+perspective of this news article on the scale below?
+
+  1: liberal (left)
+  7: conservative (right)
+
+Balanced_news (Q40): Overall, the news article provides a fair,
+balanced, and evidence based view of the article's topic.
+
+  1: Strongly agree
+  2: Agree
+  3: Somewhat agree
+  4: Neither agree nor disagree
+  5: Somewhat disagree
+  6: Disagree
+  7: Strongly disagree
+
+Fake_news (Q44): Do you think this news article is fake news?
+
+  1: Definitely yes
+  2: Probably yes
+  3: Might or might not
+  4: Probably not
+  5: Definitely not

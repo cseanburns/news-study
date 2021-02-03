@@ -1,2 +1,5 @@
 data/
 study1-exploratory/
+.Rhistory
+.RData
+.Rproj.user/

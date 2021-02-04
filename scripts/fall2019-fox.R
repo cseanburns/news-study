@@ -1,53 +1,46 @@
-setwd("~/workspace/news-study/")
-source("scripts/libraries.R")
-fall2019_fox <- read_sav("2-fall2019-fox.sav")
-View(fall2019_fox)
-fox <- fall2019_fox
-
-#fox <- read.csv("fall2019FOX.csv", header = TRUE, sep = ",",
-#               na.strings = "NA") 
-
-## Groups
-# Q44_First.Click: CONTROL
-# Q45_First.Click: TREATMENT 1, No Meta/No Pres
-# Q46_First.Click: TREATMENT 2, No Pres
-# Q47_First.Click: TREATMENT 3, No Meta
-
-## Analysis
+### Fox News ###
+# Analysis
 # Q28: Most news media are biased against my views?
 # Q44 is: Do you think this news article is fake news?
 
 # Groups
-foxcontrol <- subset(fox, Q44_First.Click >= 0 & !is.na(fox$Q44))
-foxtreatment1 <- subset(fox, Q45_First.Click >= 0 & !is.na(fox$Q44))
-foxtreatment2 <- subset(fox, Q46_First.Click >= 0 & !is.na(fox$Q44))
-foxtreatment3 <- subset(fox, Q47_First.Click >= 0 & !is.na(fox$Q44))
-
 # Fake news data
-fakenewsfox  <- c(foxcontrol$Q44, foxtreatment1$Q44, foxtreatment2$Q44, foxtreatment3$Q44)
-conditionfox <- c(rep(0, length(foxcontrol$Q44)),
-               rep(1, length(foxtreatment1$Q44)),
-               rep(2, length(foxtreatment2$Q44)),
-               rep(3, length(foxtreatment3$Q44)))i
-conditionfox <- factor(conditionfox, levels = c(0, 1, 2, 3),
-                    labels = c("Control",
-                               "Treatment1",
-                               "Treatment2",
-                               "Treatment3"),
-                 ordered = FALSE)
-foxfake <- data.frame(fakenewsfox, conditionfox)
-rm(conditionfox)
+fox_control <- fox_control$Q44
+fox_treatment1 <- fox_treatment1$Q44
+fox_treatment2 <- fox_treatment2$Q44
+fox_treatment3 <- fox_treatment3$Q44
+
+condition_control_y <- rep(0, length(fox_control))
+condition_treatment1_y <- rep(1, length(fox_treatment1))
+condition_treatment2_y <- rep(2, length(fox_treatment2))
+condition_treatment3_y <- rep(3, length(fox_treatment3))
+
+fox_groups <- c(fox_control, fox_treatment1, fox_treatment2, fox_treatment3)
+fox_conditions <- c(condition_control_y, condition_treatment1_y,
+                   condition_treatment2_y, condition_treatment3_y)
+
+fox_fake_news <- data.frame(fox_groups, fox_conditions)
+
+fox_fake_news$fox_conditions <- factor(fox_conditions,
+                                     levels = c(0, 1, 2, 3),
+                                     labels = c("Control",
+                                                "Treatment1",
+                                                "Treatment2",
+                                                "Treatment3"),
+                                     ordered = FALSE)
+
+fox_fake_news <- fox_fake_news %>% na.omit()
 
 # Descriptive
-describeBy(foxfake, foxfake$condition)
-tapply(foxfake$fakenewsfox, foxfake$conditionfox, FUN = var)
+describeBy(fox_fake_news, fox_fake_news$fox_conditions) 
+tapply(fox_fake_news$fox_groups, fox_fake_news$fox_conditions, FUN = var)
 
-fit.2 <- aov(fakenewsfox ~ conditionfox, data = foxfake)
+fit.2 <- aov(fox_groups ~ fox_conditions, data = fox_fake_news)
 summary(fit.2)
-boxplot(fakenewsfox ~ conditionfox, main = "Fox", data = foxfake)
+boxplot(fox_groups ~ fox_conditions, main = "Fox News", data = fox_fake_news)
 
-ggline(foxfake, x = "conditionfox", y = "fakenewsfox",
-       title = "Fox",
+ggline(fox_fake_news, x = "fox_conditions", y = "fox_groups",
+       title = "Fox News",
        add = "mean_se")
 
 TukeyHSD(fit.2)

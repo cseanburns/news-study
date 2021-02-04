@@ -1,54 +1,46 @@
-setwd("~/workspace/news-study/")
-source("scripts/libraries.R")
-summer2020_npr <- read_sav("4-summer2020-npr.sav")
-View(summer2020_npr)
-npr <- summer2020_npr
+### NPR News
 
-#npr <- read.csv("summer2020NPR.csv", header = TRUE, sep = ",",
-#                na.strings = "NA") 
-
-### THESE Qs may be different for this since questions were added for the
-### general public study
-## Groups
-# Q44_First.Click: CONTROL
-# Q45_First.Click: TREATMENT 1, No Meta/No Pres
-# Q46_First.Click: TREATMENT 2, No Pres
-# Q47_First.Click: TREATMENT 3, No Meta
-
-## Analysis
+# Analysis
 # Q28: Most news media are biased against my views?
 # Q44 is: Do you think this news article is fake news?
 
 # Groups
-nprcontrol <- subset(npr, Q44_First.Click >= 0 & !is.na(npr$Q44))
-nprtreatment1 <- subset(npr, Q45_First.Click >= 0 & !is.na(npr$Q44))
-nprtreatment2 <- subset(npr, Q46_First.Click >= 0 & !is.na(npr$Q44))
-nprtreatment3 <- subset(npr, Q47_First.Click >= 0 & !is.na(npr$Q44))
-
 # Fake news data
-fakenewsnpr  <- c(nprcontrol$Q44, nprtreatment1$Q44, nprtreatment2$Q44, nprtreatment3$Q44)
-conditionnpr <- c(rep(0, length(nprcontrol$Q44)),
-               rep(1, length(nprtreatment1$Q44)),
-               rep(2, length(nprtreatment2$Q44)),
-               rep(3, length(nprtreatment3$Q44)))
-conditionnpr <- factor(conditionnpr, levels = c(0, 1, 2, 3),
-                    labels = c("Control",
-                               "Treatment1",
-                               "Treatment2",
-                               "Treatment3"),
-                 ordered = FALSE)
-nprfake <- data.frame(fakenewsnpr, conditionnpr)
-rm(conditionnpr)
+npr_control <- npr_control$Q44
+npr_treatment1 <- npr_treatment1$Q44
+npr_treatment2 <- npr_treatment2$Q44
+npr_treatment3 <- npr_treatment3$Q44
+
+condition_control_y <- rep(0, length(npr_control))
+condition_treatment1_y <- rep(1, length(npr_treatment1))
+condition_treatment2_y <- rep(2, length(npr_treatment2))
+condition_treatment3_y <- rep(3, length(npr_treatment3))
+
+npr_groups <- c(npr_control, npr_treatment1, npr_treatment2, npr_treatment3)
+npr_conditions <- c(condition_control_y, condition_treatment1_y,
+                   condition_treatment2_y, condition_treatment3_y)
+
+npr_fake_news <- data.frame(npr_groups, npr_conditions)
+
+npr_fake_news$npr_conditions <- factor(npr_conditions,
+                                     levels = c(0, 1, 2, 3),
+                                     labels = c("Control",
+                                                "Treatment1",
+                                                "Treatment2",
+                                                "Treatment3"),
+                                     ordered = FALSE)
+
+npr_fake_news <- npr_fake_news %>% na.omit()
 
 # Descriptive
-describeBy(nprfake, nprfake$condition)
-tapply(nprfake$fakenewsnpr, nprfake$conditionnpr, FUN = var)
+describeBy(npr_fake_news, npr_fake_news$npr_conditions) 
+tapply(npr_fake_news$npr_groups, npr_fake_news$npr_conditions, FUN = var)
 
-fit.4 <- aov(fakenewsnpr ~ conditionnpr, data = nprfake)
+fit.4 <- aov(npr_groups ~ npr_conditions, data = npr_fake_news)
 summary(fit.4)
-boxplot(fakenewsnpr ~ conditionnpr, main ="NPR", data = nprfake)
+boxplot(npr_groups ~ npr_conditions, main = "NPR", data = npr_fake_news)
 
-ggline(nprfake, x = "conditionnpr", y = "fakenewsnpr",
+ggline(npr_fake_news, x = "npr_conditions", y = "npr_groups",
        title = "NPR",
        add = "mean_se")
 

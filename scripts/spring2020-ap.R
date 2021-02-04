@@ -1,53 +1,47 @@
-setwd("~/workspace/news-study/")
-source("scripts/libraries.R")
-spring2020_ap <- read_sav("3-spring2020-ap.sav")
-View(spring2020_ap)
-apnews <- spring2020_ap
+### AP News
 
-#apnews <- read.csv("spring2020AP.csv", header = TRUE, sep = ",",
-#               na.strings = "NA") 
-
-## Groups
-# Q44_First.Click: CONTROL
-# Q45_First.Click: TREATMENT 1, No Meta/No Pres
-# Q46_First.Click: TREATMENT 2, No Pres
-# Q47_First.Click: TREATMENT 3, No Meta
-
-## Analysis
-# Q28: Most news media are biased against my views? 1 = Strongly Agree; 7 = Strongly Disagree
-# Q44 is: Do you think this news article is fake news? 1 = Yes; 5 = No
+# Analysis
+# Q28: Most news media are biased against my views?
+# Q44 is: Do you think this news article is fake news?
 
 # Groups
-apnewscontrol <- subset(apnews, Q44_First.Click >= 0 & !is.na(apnews$Q44))
-apnewstreatment1 <- subset(apnews, Q45_First.Click >= 0 & !is.na(apnews$Q44))
-apnewstreatment2 <- subset(apnews, Q46_First.Click >= 0 & !is.na(apnews$Q44))
-apnewstreatment3 <- subset(apnews, Q47_First.Click >= 0 & !is.na(apnews$Q44))
-
 # Fake news data
-fakenewsap  <- c(apnewscontrol$Q44, apnewstreatment1$Q44, apnewstreatment2$Q44, apnewstreatment3$Q44)
-conditionap <- c(rep(0, length(apnewscontrol$Q44)),
-               rep(1, length(apnewstreatment1$Q44)),
-               rep(2, length(apnewstreatment2$Q44)),
-               rep(3, length(apnewstreatment3$Q44)))
-conditionap <- factor(conditionap, levels = c(0, 1, 2, 3),
-                    labels = c("Control",
-                               "Treatment1",
-                               "Treatment2",
-                               "Treatment3"),
-                 ordered = FALSE)
-apnewsfake <- data.frame(fakenewsap, conditionap)
-rm(conditionap)
+ap_control <- apnews_control$Q44
+ap_treatment1 <- apnews_treatment1$Q44
+ap_treatment2 <- apnews_treatment2$Q44
+ap_treatment3 <- apnews_treatment3$Q44
+
+condition_control_y <- rep(0, length(ap_control))
+condition_treatment1_y <- rep(1, length(ap_treatment1))
+condition_treatment2_y <- rep(2, length(ap_treatment2))
+condition_treatment3_y <- rep(3, length(ap_treatment3))
+
+ap_groups <- c(ap_control, ap_treatment1, ap_treatment2, ap_treatment3)
+ap_conditions <- c(condition_control_y, condition_treatment1_y,
+                   condition_treatment2_y, condition_treatment3_y)
+
+ap_fake_news <- data.frame(ap_groups, ap_conditions)
+
+ap_fake_news$ap_conditions <- factor(ap_conditions,
+                                     levels = c(0, 1, 2, 3),
+                                     labels = c("Control",
+                                                "Treatment1",
+                                                "Treatment2",
+                                                "Treatment3"),
+                                     ordered = FALSE)
+
+ap_fake_news <- ap_fake_news %>% na.omit()
 
 # Descriptive
-describeBy(apnewsfake, apnewsfake$condition)
-tapply(apnewsfake$fakenewsap, apnewsfake$conditionap, FUN = var)
+describeBy(ap_fake_news, ap_fake_news$ap_conditions) 
+tapply(ap_fake_news$ap_groups, ap_fake_news$ap_conditions, FUN = var)
 
-fit.3 <- aov(fakenewsap ~ conditionap, data = apnewsfake)
+fit.3 <- aov(ap_groups ~ ap_conditions, data = ap_fake_news)
 summary(fit.3)
-boxplot(fakenewsap ~ conditionap, main = "AP", data = apnewsfake)
+boxplot(ap_groups ~ ap_conditions, main = "AP News", data = ap_fake_news)
 
-ggline(apnewsfake, x = "conditionap", y = "fakenewsap",
-       title = "Associated Press",
+ggline(ap_fake_news, x = "ap_conditions", y = "ap_groups",
+       title = "AP News",
        add = "mean_se")
 
 TukeyHSD(fit.3)

@@ -21,7 +21,7 @@ ny_conditions <- c(condition_control_y, condition_treatment1_y,
 
 ny_fake_news <- data.frame(ny_groups, ny_conditions)
 
-ny_fake_news$ny_conditions <- factor(ny_conditions,### NY Times
+ny_fake_news$ny_conditions <- factor(ny_conditions,
                                      levels = c(0, 1, 2, 3),
                                      labels = c("Control",
                                                 "Treatment1",

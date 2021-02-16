@@ -3,9 +3,7 @@ source("scripts/libraries.R")
 
 ###### NY Times Data
 # Import data
-spring2019_nytimes <- read_sav("data/1-spring2019-nytimes.sav")
-nytimes <- spring2019_nytimes
-rm(spring2019_nytimes)
+nytimes <- read_sav("data/1-spring2019-nytimes.sav")
 
 # Keep only completed surveys
 nytimes <- nytimes %>% filter(Finished == 1)
@@ -44,14 +42,12 @@ nytimes_treatment3 <- nytimes_treatment3 %>%
 
 ###### Fox Data
 # Import data
-fall2019_fox <- read_sav("data/2-fall2019-fox.sav")
-fox <- fall2019_fox
-rm(fall2019_fox)
+foxnews <- read_sav("data/2-fall2019-fox.sav")
 
 # Keep only completed surveys
-fox <- fox %>% filter(Finished == 1)
+foxnews <- fox %>% filter(Finished == 1)
 # Keep only data columns
-fox <- fox %>% select(starts_with("Q"))
+foxnews <- fox %>% select(starts_with("Q"))
 
 # Partition data into treatment groups
 # Groups
@@ -60,10 +56,10 @@ fox <- fox %>% select(starts_with("Q"))
 # Q46_First.Click: TREATMENT 2, No Pres
 # Q47_First.Click: TREATMENT 3, No Meta
 
-fox_control <- fox %>% filter(Q44_First_Click >= 0)
-fox_treatment1 <- fox %>% filter(Q45_First_Click >=0)
-fox_treatment2 <- fox %>% filter(Q46_First_Click >=0)
-fox_treatment3 <- fox %>% filter(Q47_First_Click >=0)
+fox_control <- foxnews %>% filter(Q44_First_Click >= 0)
+fox_treatment1 <- foxnews %>% filter(Q45_First_Click >=0)
+fox_treatment2 <- foxnews %>% filter(Q46_First_Click >=0)
+fox_treatment3 <- foxnews %>% filter(Q47_First_Click >=0)
 
 # Remove columns that identify treatment groups; not necessary now
 fox_control <- fox_control %>%
@@ -81,9 +77,7 @@ fox_treatment3 <- fox_treatment3 %>%
 
 ###### AP News Data
 # Import Data
-spring2020_ap <- read_sav("data/3-spring2020-ap.sav")
-apnews <- spring2020_ap
-rm(spring2020_ap)
+apnews <- read_sav("data/3-spring2020-ap.sav")
 
 # Keep only completed surveys
 apnews <- apnews %>% filter(Finished == 1)
@@ -118,9 +112,7 @@ apnews_treatment3 <- apnews_treatment3 %>%
 
 ###### NPR Data
 # Import data
-summer2020_npr <- read_sav("data/4-summer2020-npr.sav")
-npr <- summer2020_npr
-rm(summer2020_npr)
+nrp <- read_sav("data/4-summer2020-npr.sav")
 
 # Keep only completed surveys
 npr <- npr %>% filter(Finished == 1)

@@ -1,4 +1,8 @@
 library("dplyr")
 library("ggpubr")
+library("sjPlot")
+library("stargazer")
 library("psych")
 library("haven")
+library("pwr")
+library("sjstats")

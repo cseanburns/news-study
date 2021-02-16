@@ -1,8 +1,9 @@
 ### AP News
 
 # Analysis
-# Q28: Most news media are biased against my views?
-# Q44 is: Do you think this news article is fake news?
+# Q44: Do you think this news article is fake news?
+# 1 = Definitely Yes
+# 5 = Definitely Not
 
 # Groups
 # Fake news data
@@ -39,6 +40,7 @@ tapply(ap_fake_news$ap_groups, ap_fake_news$ap_conditions, FUN = var)
 fit.3 <- aov(ap_groups ~ ap_conditions, data = ap_fake_news)
 summary(fit.3)
 boxplot(ap_groups ~ ap_conditions, main = "AP News", data = ap_fake_news)
+mtext(side=2, line=2, "1 = Definitely yes; 5 = Definitely not", col="black", font=1, cex=1.2)
 
 ggline(ap_fake_news, x = "ap_conditions", y = "ap_groups",
        title = "AP News",

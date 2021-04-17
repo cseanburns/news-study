@@ -1,8 +1,10 @@
 # News Study
 
-This is a research project studying the perceptions of fake news. The primary research question involved whether participants judged a news story as fake news dependent upon whether the article was presented (1) as it was published, (2) with source, author, and like data removed, (3) with presentation/formatting minimized, and (4) with source, author, and like data removed and also with presentation/formatting minimized. Any advertisements from the news sources were removed in all groups.
+This is a research project studying perceptions of fake news. The primary research question involved whether participants judged a news story as fake news dependent upon whether the article was presented (1) as it was published, (2) with source, author, and like data removed, (3) with presentation/formatting minimized, and (4) with source, author, and like data removed and also with presentation/formatting minimized. Any advertisements from the news sources were removed in all groups.
 
-Four studies were conducted over the course of a year and a half. The first study was directly replicated three additional times. Each study was based on the news articles listed below in the **Articles** section.
+The secondary research question investigated a range of variables associated with political persuasion, media bias, and like and perceptions of fake news.
+
+Four studies were conducted over the course of a year and a half. The first study was directly replicated three additional times. Each study was based on the news articles listed in the **Articles** section below.
 
 This repository contains the code and not the data for the project.
 

@@ -1,8 +1,7 @@
 setwd("~/workspace/news-study/")
 source("scripts/libraries.R")
-rm(list = ls())
 
-# Q11: Did you vote in the last midterm el ection?
+# Q11: Did you vote in the last midterm election?
 # 1 = Yes
 # 2 = No
 # Q21_1: Where would you place your political perspective on this scale:
@@ -31,24 +30,22 @@ rm(list = ls())
 # 1 = Definitely Yes
 # 5 = Definitely Not
 
-### Fox News
+### apnews
 # Import Data
-foxnews <- read_sav("data/2-fall2019-fox.sav")
+apnews <- read_sav("data/3-spring2020-ap.sav")
 
 # Keep only completed surveys
-foxnews <- foxnews %>% filter(Finished == 1)
-# Remove anyone who didn't answer age question or is younger than 18
-foxnews <- foxnews %>% filter(Q3_1 >= 2)
+apnews <- apnews %>% filter(Finished == 1)
 # Keep only data columns
-foxnews <- foxnews %>% select(starts_with("Q"))
+apnews <- apnews %>% select(starts_with("Q"))
 
-foxnews$Q11 <- factor(foxnews$Q11,
+apnews$Q11 <- factor(apnews$Q11,
                       levels = c(1, 2),
                       labels = c("Yes",
                                  "No"),
                       ordered = FALSE)
                       
-foxnews$Q21_1 <- factor(foxnews$Q21_1,
+apnews$Q21_1 <- factor(apnews$Q21_1,
                       levels = c(1, 2, 3, 4, 5, 6, 7),
                       labels = c("Extremely Liberal",
                                  "Fairly Liberal",
@@ -59,7 +56,7 @@ foxnews$Q21_1 <- factor(foxnews$Q21_1,
                                  "Extremely Conservative"),
                       ordered = FALSE)
 
- foxnews$Q26 <- factor(foxnews$Q26,
+ apnews$Q26 <- factor(apnews$Q26,
                       levels = c(1, 2, 3, 4, 5),
                       labels = c("Never",
                                  "Rarely",
@@ -68,7 +65,7 @@ foxnews$Q21_1 <- factor(foxnews$Q21_1,
                                  "Always"),
                       ordered = FALSE)
 
-foxnews$Q28 <- factor(foxnews$Q28,
+apnews$Q28 <- factor(apnews$Q28,
                       levels = c(1, 2, 3, 4, 5, 6, 7),
                       labels = c("Strongly agree",
                                  "Agree",
@@ -79,7 +76,7 @@ foxnews$Q28 <- factor(foxnews$Q28,
                                  "Strongly disagree"),
                       ordered = FALSE)
  
-foxnews$Q32 <- factor(foxnews$Q32,
+apnews$Q32 <- factor(apnews$Q32,
                       levels = c(1, 2, 3, 4, 5),
                       labels = c("Never",
                                  "Rarely",
@@ -88,7 +85,7 @@ foxnews$Q32 <- factor(foxnews$Q32,
                                  "Always"),
                       ordered = FALSE)
 
-foxnews$Q34 <- factor(foxnews$Q34,
+apnews$Q34 <- factor(apnews$Q34,
                       levels = c(1, 2, 3, 4, 5),
                       labels = c("Never",
                                  "Rarely",
@@ -97,7 +94,7 @@ foxnews$Q34 <- factor(foxnews$Q34,
                                  "Always"),
                       ordered = FALSE)
 
-foxnews$Q40 <- factor(foxnews$Q40,
+apnews$Q40 <- factor(apnews$Q40,
                       levels = c(1, 2, 3, 4, 5, 6, 7),
                       labels = c("Strongly agree",
                                  "Agree",
@@ -108,7 +105,7 @@ foxnews$Q40 <- factor(foxnews$Q40,
                                  "Strongly disagree"),
                       ordered = FALSE)
 
-foxnews$Q43_1 <- factor(foxnews$Q43_1,
+apnews$Q43_1 <- factor(apnews$Q43_1,
                       levels = c(1, 2, 3, 4, 5, 6, 7),
                       labels = c("Extremely Liberal",
                                  "Fairly Liberal",
@@ -119,22 +116,22 @@ foxnews$Q43_1 <- factor(foxnews$Q43_1,
                                  "Extremely Conservative"),
                       ordered = FALSE)
 
-fit.foxnews.lm <- lm(foxnews$Q44 ~ foxnews$Q11 + foxnews$Q21_1 +
-                        foxnews$Q26 + foxnews$Q28 + 
-                        foxnews$Q32 + foxnews$Q34 +
-                        foxnews$Q43_1 + foxnews$Q40)
+fit.apnews.lm <- lm(apnews$Q44 ~ apnews$Q11 + apnews$Q21_1 +
+                        apnews$Q26 + apnews$Q28 + 
+                        apnews$Q32 + apnews$Q34 +
+                        apnews$Q43_1 + apnews$Q40)
 
-summary(fit.foxnews.lm)
-round(confint(fit.foxnews.lm, level = 0.95), 2)
-standardCoefs(fit.foxnews.lm)
+summary(fit.apnews.lm)
+round(confint(fit.apnews.lm, level = 0.95), 2)
+standardCoefs(fit.apnews.lm)
 
-boxplot(foxnews$Q44 ~ foxnews$Q11, main = "Fox News Q11")
-boxplot(foxnews$Q44 ~ foxnews$Q21_1, main = "Fox News Q21_1")
-boxplot(foxnews$Q44 ~ foxnews$Q26, main = "Fox News Q26")
-boxplot(foxnews$Q44 ~ foxnews$Q28, main = "Fox News Q28")
-boxplot(foxnews$Q44 ~ foxnews$Q32, main = "Fox News Q32")
-boxplot(foxnews$Q44 ~ foxnews$Q34, main = "Fox News Q34")
-boxplot(foxnews$Q44 ~ foxnews$Q43_1, main = "Fox News Q43_1")
-boxplot(foxnews$Q44 ~ foxnews$Q40, main = "Fox News Q40")
+boxplot(apnews$Q44 ~ apnews$Q11, main = "apnews Q11")
+boxplot(apnews$Q44 ~ apnews$Q21_1, main = "apnews Q21_1")
+boxplot(apnews$Q44 ~ apnews$Q26, main = "apnews Q26")
+boxplot(apnews$Q44 ~ apnews$Q28, main = "apnews Q28")
+boxplot(apnews$Q44 ~ apnews$Q32, main = "apnews Q32")
+boxplot(apnews$Q44 ~ apnews$Q34, main = "apnews Q34")
+boxplot(apnews$Q44 ~ apnews$Q43_1, main = "apnews Q43_1")
+boxplot(apnews$Q44 ~ apnews$Q40, main = "apnews Q40")
 
-#stargazer(fit.foxnews.lm, fit.fox.lm, fit.apnews.lm, fit.npr.lm, type = "html", out = "test.doc")
+stargazer(fit.apnews.lm, type = "text", out = "apnews.txt")

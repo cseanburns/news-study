@@ -33,11 +33,23 @@ ny_fake_news <- ny_fake_news %>% na.omit()
                                      
 # Descriptive
 describeBy(ny_fake_news, ny_fake_news$ny_conditions) 
-tapply(ny_fake_news$ny_groups, ny_fake_news$ny_conditions, FUN = var)
+# total N
+length(ny_fake_news$ny_groups)
+# grand mean
+mean(ny_fake_news$ny_groups)
+# grand sd
+sd(ny_fake_news$ny_groups)
+# t.test compared to the scale mean
+t.test(ny_fake_news$ny_groups, mu = 2.50)
                                      
 fit.1 <- aov(ny_groups ~ ny_conditions, data = ny_fake_news)
 summary(fit.1)
+Anova(fit.1)
 boxplot(ny_groups ~ ny_conditions, main = "NY Times", data = ny_fake_news)
+
+# Q44: Do you think this news article is fake news?
+# 1 = Definitely Yes
+# 5 = Definitely Not
                                      
 ggline(ny_fake_news, x = "ny_conditions", y = "ny_groups",
        title = "NY Times",

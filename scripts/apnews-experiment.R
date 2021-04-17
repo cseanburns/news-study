@@ -35,10 +35,18 @@ ap_fake_news <- ap_fake_news %>% na.omit()
 
 # Descriptive
 describeBy(ap_fake_news, ap_fake_news$ap_conditions) 
-tapply(ap_fake_news$ap_groups, ap_fake_news$ap_conditions, FUN = var)
+# total N
+length(ap_fake_news$ap_groups)
+# grand mean
+mean(ap_fake_news$ap_groups)
+# grand sd
+sd(ap_fake_news$ap_groups)
+# t.test compared to the scale mean
+t.test(ap_fake_news$ap_groups, mu = 2.50)
 
 fit.3 <- aov(ap_groups ~ ap_conditions, data = ap_fake_news)
 summary(fit.3)
+Anova(fit.3)
 boxplot(ap_groups ~ ap_conditions, main = "AP News", data = ap_fake_news)
 mtext(side=2, line=2, "1 = Definitely yes; 5 = Definitely not", col="black", font=1, cex=1.2)
 

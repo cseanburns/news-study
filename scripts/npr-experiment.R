@@ -2,7 +2,7 @@
 
 # Analysis
 # Q28: Most news media are biased against my views?
-# Q44 is: Do you think this news article is fake news?
+ # Q44 is: Do you think this news article is fake news?
 
 # Groups
 # Fake news data
@@ -34,7 +34,14 @@ npr_fake_news <- npr_fake_news %>% na.omit()
 
 # Descriptive
 describeBy(npr_fake_news, npr_fake_news$npr_conditions) 
-tapply(npr_fake_news$npr_groups, npr_fake_news$npr_conditions, FUN = var)
+# total N
+length(npr_fake_news$npr_groups)
+# grand mean
+mean(npr_fake_news$npr_groups)
+# grand sd
+sd(npr_fake_news$npr_groups)
+# t.test compared to the scale mean
+t.test(npr_fake_news$npr_groups, mu = 2.50)
 
 fit.4 <- aov(npr_groups ~ npr_conditions, data = npr_fake_news)
 summary(fit.4)

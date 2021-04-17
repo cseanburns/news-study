@@ -7,6 +7,8 @@ nytimes <- read_sav("data/1-spring2019-nytimes.sav")
 
 # Keep only completed surveys
 nytimes <- nytimes %>% filter(Finished == 1)
+# Remove anyone who didn't answer age question or is younger than 18
+nytimes <- nytimes %>% filter(Q3_1 >= 2)
 # Keep only data columns
 nytimes <- nytimes %>% select(starts_with("Q"))
 
@@ -45,9 +47,11 @@ nytimes_treatment3 <- nytimes_treatment3 %>%
 foxnews <- read_sav("data/2-fall2019-fox.sav")
 
 # Keep only completed surveys
-foxnews <- fox %>% filter(Finished == 1)
+foxnews <- foxnews %>% filter(Finished == 1)
+# Remove anyone who didn't answer age question or is younger than 18
+foxnews <- foxnews %>% filter(Q3_1 >= 2)
 # Keep only data columns
-foxnews <- fox %>% select(starts_with("Q"))
+foxnews <- foxnews %>% select(starts_with("Q"))
 
 # Partition data into treatment groups
 # Groups
@@ -81,6 +85,8 @@ apnews <- read_sav("data/3-spring2020-ap.sav")
 
 # Keep only completed surveys
 apnews <- apnews %>% filter(Finished == 1)
+# Remove anyone who didn't answer age question or is younger than 18
+apnews <- apnews %>% filter(Q3_1 >= 2)
 # Keep only data columns
 apnews <- apnews %>% select(starts_with("Q"))
 
@@ -112,7 +118,7 @@ apnews_treatment3 <- apnews_treatment3 %>%
 
 ###### NPR Data
 # Import data
-nrp <- read_sav("data/4-summer2020-npr.sav")
+npr <- read_sav("data/4-summer2020-npr.sav")
 
 # Keep only completed surveys
 npr <- npr %>% filter(Finished == 1)
@@ -144,3 +150,4 @@ npr_treatment2 <- npr_treatment2 %>%
 npr_treatment3 <- npr_treatment3 %>%
   select(-ends_with('First_Click'), -ends_with('Last_Click'),
          -ends_with('Page_Submit'), -ends_with('Click_Count'))
+

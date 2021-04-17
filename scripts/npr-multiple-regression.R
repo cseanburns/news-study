@@ -1,5 +1,6 @@
 setwd("~/workspace/news-study/")
 source("scripts/libraries.R")
+rm(list = ls())
 
 # Q11: Did you vote in the last midterm election?
 # 1 = Yes
@@ -83,7 +84,7 @@ npr$Q32 <- factor(npr$Q32,
                                  "Sometimes",
                                  "Often",
                                  "Always"),
-                      ordered = FALSE)
+                       ordered = FALSE)
 
 npr$Q34 <- factor(npr$Q34,
                       levels = c(1, 2, 3, 4, 5),
@@ -123,6 +124,7 @@ fit.npr.lm <- lm(npr$Q44 ~ npr$Q11 + npr$Q21_1 +
 
 summary(fit.npr.lm)
 round(confint(fit.npr.lm, level = 0.95), 2)
+standardCoefs(fit.npr.lm)
 
 boxplot(npr$Q44 ~ npr$Q11, main = "NPR Q11")
 boxplot(npr$Q44 ~ npr$Q21_1, main = "NPR Q21_1")

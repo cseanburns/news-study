@@ -1,5 +1,6 @@
 setwd("~/workspace/news-study/")
 source("scripts/libraries.R")
+rm(list = ls())
 
 # Q11: Did you vote in the last midterm election?
 # 1 = Yes
@@ -36,6 +37,8 @@ nytimes <- read_sav("data/1-spring2019-nytimes.sav")
 
 # Keep only completed surveys
 nytimes <- nytimes %>% filter(Finished == 1)
+# Remove anyone who didn't answer age question or is younger than 18
+nytimes <- nytimes %>% filter(Q3_1 >= 2)
 # Keep only data columns
 nytimes <- nytimes %>% select(starts_with("Q"))
 
@@ -123,6 +126,8 @@ fit.nytimes.lm <- lm(nytimes$Q44 ~ nytimes$Q11 + nytimes$Q21_1 +
 
 summary(fit.nytimes.lm)
 round(confint(fit.nytimes.lm, level = 0.95), 2)
+standardCoefs(fit.nytimes.lm)
+
 
 boxplot(nytimes$Q44 ~ nytimes$Q11, main = "NY Times Q11")
 boxplot(nytimes$Q44 ~ nytimes$Q21_1, main = "NY Times Q21_1")

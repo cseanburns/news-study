@@ -3,7 +3,7 @@ source("scripts/libraries.R")
 rm(list = ls())
 
 # Q11: Did you vote in the last midterm election?
-# 1 = Yes
+# 1 = Yesi
 # 2 = No
 # Q21_1: Where would you place your political perspective on this scale:
 # 1 = Extremely liberal
@@ -28,7 +28,7 @@ rm(list = ls())
 # 7 = Extremely conservative
 
 # Q44: Do you think this news article is fake news?
-# 1 = Definitely Yes
+# 1 = Definitely Yesi
 # 5 = Definitely Not
 
 ### NY Times
@@ -125,17 +125,7 @@ fit.nytimes.lm <- lm(nytimes$Q44 ~ nytimes$Q11 + nytimes$Q21_1 +
                         nytimes$Q43_1 + nytimes$Q40)
 
 summary(fit.nytimes.lm)
+forest_model(fit.nytimes.lm)
 round(confint(fit.nytimes.lm, level = 0.95), 2)
-standardCoefs(fit.nytimes.lm)
-
-
-boxplot(nytimes$Q44 ~ nytimes$Q11, main = "NY Times Q11")
-boxplot(nytimes$Q44 ~ nytimes$Q21_1, main = "NY Times Q21_1")
-boxplot(nytimes$Q44 ~ nytimes$Q26, main = "NY Times Q26")
-boxplot(nytimes$Q44 ~ nytimes$Q28, main = "NY Times Q28")
-boxplot(nytimes$Q44 ~ nytimes$Q32, main = "NY Times Q32")
-boxplot(nytimes$Q44 ~ nytimes$Q34, main = "NY Times Q34")
-boxplot(nytimes$Q44 ~ nytimes$Q43_1, main = "NY Times Q43_1")
-boxplot(nytimes$Q44 ~ nytimes$Q40, main = "NY Times Q40")
 
 #stargazer(fit.nytimes.lm, fit.fox.lm, fit.apnews.lm, fit.npr.lm, type = "html", out = "test.doc")

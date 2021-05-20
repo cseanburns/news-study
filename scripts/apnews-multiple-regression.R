@@ -1,5 +1,6 @@
 setwd("~/workspace/news-study/")
 source("scripts/libraries.R")
+rm(list = ls())
 
 # Q11: Did you vote in the last midterm election?
 # 1 = Yes
@@ -122,16 +123,7 @@ fit.apnews.lm <- lm(apnews$Q44 ~ apnews$Q11 + apnews$Q21_1 +
                         apnews$Q43_1 + apnews$Q40)
 
 summary(fit.apnews.lm)
+forest_model(fit.apnews.lm)
 round(confint(fit.apnews.lm, level = 0.95), 2)
-standardCoefs(fit.apnews.lm)
 
-boxplot(apnews$Q44 ~ apnews$Q11, main = "apnews Q11")
-boxplot(apnews$Q44 ~ apnews$Q21_1, main = "apnews Q21_1")
-boxplot(apnews$Q44 ~ apnews$Q26, main = "apnews Q26")
-boxplot(apnews$Q44 ~ apnews$Q28, main = "apnews Q28")
-boxplot(apnews$Q44 ~ apnews$Q32, main = "apnews Q32")
-boxplot(apnews$Q44 ~ apnews$Q34, main = "apnews Q34")
-boxplot(apnews$Q44 ~ apnews$Q43_1, main = "apnews Q43_1")
-boxplot(apnews$Q44 ~ apnews$Q40, main = "apnews Q40")
-
-stargazer(fit.apnews.lm, type = "text", out = "apnews.txt")
+#stargazer(fit.apnews.lm, type = "text", out = "apnews.txt")

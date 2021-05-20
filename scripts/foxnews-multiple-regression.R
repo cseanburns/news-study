@@ -125,16 +125,7 @@ fit.foxnews.lm <- lm(foxnews$Q44 ~ foxnews$Q11 + foxnews$Q21_1 +
                         foxnews$Q43_1 + foxnews$Q40)
 
 summary(fit.foxnews.lm)
+forest_model(fit.foxnews.lm)
 round(confint(fit.foxnews.lm, level = 0.95), 2)
-standardCoefs(fit.foxnews.lm)
-
-boxplot(foxnews$Q44 ~ foxnews$Q11, main = "Fox News Q11")
-boxplot(foxnews$Q44 ~ foxnews$Q21_1, main = "Fox News Q21_1")
-boxplot(foxnews$Q44 ~ foxnews$Q26, main = "Fox News Q26")
-boxplot(foxnews$Q44 ~ foxnews$Q28, main = "Fox News Q28")
-boxplot(foxnews$Q44 ~ foxnews$Q32, main = "Fox News Q32")
-boxplot(foxnews$Q44 ~ foxnews$Q34, main = "Fox News Q34")
-boxplot(foxnews$Q44 ~ foxnews$Q43_1, main = "Fox News Q43_1")
-boxplot(foxnews$Q44 ~ foxnews$Q40, main = "Fox News Q40")
 
 #stargazer(fit.foxnews.lm, fit.fox.lm, fit.apnews.lm, fit.npr.lm, type = "html", out = "test.doc")

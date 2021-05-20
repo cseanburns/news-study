@@ -123,16 +123,7 @@ fit.npr.lm <- lm(npr$Q44 ~ npr$Q11 + npr$Q21_1 +
                         npr$Q43_1 + npr$Q40)
 
 summary(fit.npr.lm)
+forest_model(fit.npr.lm)
 round(confint(fit.npr.lm, level = 0.95), 2)
-standardCoefs(fit.npr.lm)
 
-boxplot(npr$Q44 ~ npr$Q11, main = "NPR Q11")
-boxplot(npr$Q44 ~ npr$Q21_1, main = "NPR Q21_1")
-boxplot(npr$Q44 ~ npr$Q26, main = "NPR Q26")
-boxplot(npr$Q44 ~ npr$Q28, main = "NPR Q28")
-boxplot(npr$Q44 ~ npr$Q32, main = "NPR Q32")
-boxplot(npr$Q44 ~ npr$Q34, main = "NPR Q34")
-boxplot(npr$Q44 ~ npr$Q43_1, main = "NPR Q43_1")
-boxplot(npr$Q44 ~ npr$Q40, main = "NPR Q40")
-
-stargazer(fit.npr.lm, type = "text", out = "npr.txt")
+#stargazer(fit.npr.lm, type = "text", out = "npr.txt")

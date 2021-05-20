@@ -44,9 +44,10 @@ sd(ny_fake_news$ny_groups)
 # t.test compared to the scale mean
 t.test(ny_fake_news$ny_groups, mu = 2.50)
                                      
-fit.1 <- aov(ny_groups ~ ny_conditions, data = ny_fake_news)
-summary(fit.1)
-car::Anova(fit.1)
+fit.ny <- aov(ny_groups ~ ny_conditions, data = ny_fake_news)
+summary(fit.ny)
+car::Anova(fit.ny)
+sjstats::anova_stats(fit.ny)
 boxplot(ny_groups ~ ny_conditions, main = "NY Times", data = ny_fake_news)
 
 # Q44: Do you think this news article is fake news?
@@ -57,5 +58,5 @@ ggpubr::ggline(ny_fake_news, x = "ny_conditions", y = "ny_groups",
                title = "NY Times",
                add = "mean_se")
                                      
-TukeyHSD(fit.1)
-plot(TukeyHSD(fit.1))
+TukeyHSD(fit.ny)
+plot(TukeyHSD(fit.ny))

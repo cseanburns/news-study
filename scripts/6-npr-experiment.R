@@ -44,14 +44,15 @@ sd(npr_fake_news$npr_groups)
 # t.test compared to the scale mean
 t.test(npr_fake_news$npr_groups, mu = 2.50)
 
-fit.4 <- aov(npr_groups ~ npr_conditions, data = npr_fake_news)
-summary(fit.4)
-car::Anova(fit.4)
+fit.npr <- aov(npr_groups ~ npr_conditions, data = npr_fake_news)
+summary(fit.npr)
+car::Anova(fit.npr)
+sjstats::anova_stats(fit.npr)
 boxplot(npr_groups ~ npr_conditions, main = "NPR", data = npr_fake_news)
 
 ggpubr::ggline(npr_fake_news, x = "npr_conditions", y = "npr_groups",
                title = "NPR",
                add = "mean_se")
 
-TukeyHSD(fit.4)
-plot(TukeyHSD(fit.4))
+TukeyHSD(fit.npr)
+plot(TukeyHSD(fit.npr))

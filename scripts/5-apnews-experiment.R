@@ -44,9 +44,10 @@ sd(ap_fake_news$ap_groups)
 # t.test compared to the scale mean
 t.test(ap_fake_news$ap_groups, mu = 2.50)
 
-fit.3 <- aov(ap_groups ~ ap_conditions, data = ap_fake_news)
-summary(fit.3)
-car::Anova(fit.3)
+fit.ap <- aov(ap_groups ~ ap_conditions, data = ap_fake_news)
+summary(fit.ap)
+car::Anova(fit.ap)
+sjstats::anova_stats(fit.ap)
 boxplot(ap_groups ~ ap_conditions, main = "AP News", data = ap_fake_news)
 mtext(side=2, line=2, "1 = Definitely yes; 5 = Definitely not", col="black", font=1, cex=1.2)
 
@@ -54,5 +55,5 @@ ggpubr::ggline(ap_fake_news, x = "ap_conditions", y = "ap_groups",
                title = "AP News",
                add = "mean_se")
 
-TukeyHSD(fit.3)
-plot(TukeyHSD(fit.3))
+TukeyHSD(fit.ap)
+plot(TukeyHSD(fit.ap))

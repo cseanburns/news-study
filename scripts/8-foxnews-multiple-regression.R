@@ -98,5 +98,3 @@ fit.foxnews.lm <- lm(foxnews$Q44 ~ foxnews$Q11 + foxnews$Q21_1 +
 summary(fit.foxnews.lm)
 forest_model(fit.foxnews.lm)
 round(confint(fit.foxnews.lm, level = 0.95), 2)
-
-#stargazer(fit.foxnews.lm, fit.fox.lm, fit.apnews.lm, fit.npr.lm, type = "html", out = "test.doc")

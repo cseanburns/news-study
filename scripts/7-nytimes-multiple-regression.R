@@ -98,5 +98,3 @@ fit.nytimes.lm <- lm(nytimes$Q44 ~ nytimes$Q11 + nytimes$Q21_1 +
 summary(fit.nytimes.lm)
 forest_model(fit.nytimes.lm)
 round(confint(fit.nytimes.lm, level = 0.95), 2)
-
-#stargazer(fit.nytimes.lm, fit.fox.lm, fit.apnews.lm, fit.npr.lm, type = "html", out = "test.doc")

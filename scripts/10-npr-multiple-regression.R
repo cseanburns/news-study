@@ -96,5 +96,3 @@ fit.npr.lm <- lm(npr$Q44 ~ npr$Q11 + npr$Q21_1 +
 summary(fit.npr.lm)
 forest_model(fit.npr.lm)
 round(confint(fit.npr.lm, level = 0.95), 2)
-
-#stargazer(fit.npr.lm, type = "text", out = "npr.txt")

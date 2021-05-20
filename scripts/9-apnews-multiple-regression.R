@@ -98,5 +98,3 @@ fit.apnews.lm <- lm(apnews$Q44 ~ apnews$Q11 + apnews$Q21_1 +
 summary(fit.apnews.lm)
 forest_model(fit.apnews.lm)
 round(confint(fit.apnews.lm, level = 0.95), 2)
-
-#stargazer(fit.apnews.lm, type = "text", out = "apnews.txt")

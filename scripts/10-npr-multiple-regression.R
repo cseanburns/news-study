@@ -1,5 +1,5 @@
 setwd("~/workspace/news-study/")
-source("scripts/libraries.R")
+source("scripts/0-libraries.R")
 rm(list = ls())
 
 ### NPR
@@ -7,9 +7,9 @@ rm(list = ls())
 npr <- read_sav("data/4-summer2020-npr.sav")
 
 # Keep only completed surveys
-npr <- npr %>% filter(Finished == 1)
+npr <- npr %>% dplyr::filter(Finished == 1)
 # Keep only data columns
-npr <- npr %>% select(starts_with("Q"))
+npr <- npr %>% dplyr::select(starts_with("Q"))
 
 npr$Q11 <- factor(npr$Q11,
                       levels = c(1, 2),

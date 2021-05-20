@@ -1,5 +1,5 @@
 setwd("~/workspace/news-study/")
-source("scripts/libraries.R")
+source("scripts/0-libraries.R")
 rm(list = ls())
 
 ### AP News
@@ -7,9 +7,11 @@ rm(list = ls())
 apnews <- read_sav("data/3-spring2020-ap.sav")
 
 # Keep only completed surveys
-apnews <- apnews %>% filter(Finished == 1)
+apnews <- apnews %>% dplyr::filter(Finished == 1)
+# Remove anyone who didn't answer age question or is younger than 18
+apnews <- apnews %>% dplyr::filter(Q3_1 >= 2)
 # Keep only data columns
-apnews <- apnews %>% select(starts_with("Q"))
+apnews <- apnews %>% dplyr::select(starts_with("Q"))
 
 apnews$Q11 <- factor(apnews$Q11,
                       levels = c(1, 2),

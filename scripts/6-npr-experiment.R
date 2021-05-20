@@ -34,7 +34,7 @@ npr_fake_news$npr_conditions <- factor(npr_conditions,
 npr_fake_news <- npr_fake_news %>% na.omit()
 
 # Descriptive
-describeBy(npr_fake_news, npr_fake_news$npr_conditions) 
+psych::describeBy(npr_fake_news, npr_fake_news$npr_conditions) 
 # total N
 length(npr_fake_news$npr_groups)
 # grand mean
@@ -46,11 +46,12 @@ t.test(npr_fake_news$npr_groups, mu = 2.50)
 
 fit.4 <- aov(npr_groups ~ npr_conditions, data = npr_fake_news)
 summary(fit.4)
+car::Anova(fit.4)
 boxplot(npr_groups ~ npr_conditions, main = "NPR", data = npr_fake_news)
 
-ggline(npr_fake_news, x = "npr_conditions", y = "npr_groups",
-       title = "NPR",
-       add = "mean_se")
+ggpubr::ggline(npr_fake_news, x = "npr_conditions", y = "npr_groups",
+               title = "NPR",
+               add = "mean_se")
 
 TukeyHSD(fit.4)
 plot(TukeyHSD(fit.4))

@@ -34,7 +34,7 @@ ap_fake_news$ap_conditions <- factor(ap_conditions,
 ap_fake_news <- ap_fake_news %>% na.omit()
 
 # Descriptive
-describeBy(ap_fake_news, ap_fake_news$ap_conditions) 
+psych::describeBy(ap_fake_news, ap_fake_news$ap_conditions) 
 # total N
 length(ap_fake_news$ap_groups)
 # grand mean
@@ -46,13 +46,13 @@ t.test(ap_fake_news$ap_groups, mu = 2.50)
 
 fit.3 <- aov(ap_groups ~ ap_conditions, data = ap_fake_news)
 summary(fit.3)
-Anova(fit.3)
+car::Anova(fit.3)
 boxplot(ap_groups ~ ap_conditions, main = "AP News", data = ap_fake_news)
 mtext(side=2, line=2, "1 = Definitely yes; 5 = Definitely not", col="black", font=1, cex=1.2)
 
-ggline(ap_fake_news, x = "ap_conditions", y = "ap_groups",
-       title = "AP News",
-       add = "mean_se")
+ggpubr::ggline(ap_fake_news, x = "ap_conditions", y = "ap_groups",
+               title = "AP News",
+               add = "mean_se")
 
 TukeyHSD(fit.3)
 plot(TukeyHSD(fit.3))

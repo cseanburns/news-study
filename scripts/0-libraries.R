@@ -1,12 +1,13 @@
-library("dplyr")
-library("ggpubr")
-library("sjPlot")
-library("stargazer")
-library("psych")
-library("haven")
-library("pwr")
-library("tidyr")
-library("sjstats")
 library("car")
-library("lsr")
-library("forestmodel")
+library("dplyr")
+library("forestmodel") # for forest_model plots
+library("ggpubr") # for ggline
+library("haven") # import SPSS files
+library("psych")
+library("sjstats")
+
+#library("sjPlot")
+#library("stargazer")
+#library("pwr")
+#library("tidyr")
+#library("lsr")

@@ -1,5 +1,5 @@
 setwd("~/workspace/news-study/")
-source("scripts/libraries.R")
+source("scripts/0-libraries.R")
 rm(list = ls())
 
 ### NY Times
@@ -7,11 +7,11 @@ rm(list = ls())
 nytimes <- read_sav("data/1-spring2019-nytimes.sav")
 
 # Keep only completed surveys
-nytimes <- nytimes %>% filter(Finished == 1)
+nytimes <- nytimes %>% dplyr::filter(Finished == 1)
 # Remove anyone who didn't answer age question or is younger than 18
-nytimes <- nytimes %>% filter(Q3_1 >= 2)
+nytimes <- nytimes %>% dplyr::filter(Q3_1 >= 2)
 # Keep only data columns
-nytimes <- nytimes %>% select(starts_with("Q"))
+nytimes <- nytimes %>% dplyr::select(starts_with("Q"))
 
 nytimes$Q11 <- factor(nytimes$Q11,
                       levels = c(1, 2),

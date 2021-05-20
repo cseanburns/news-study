@@ -5,6 +5,10 @@
 # 1 = Definitely Yes
 # 5 = Definitely Not
 
+# See functions.R file
+barplot(table(apnews$Q44), main = "AP News")
+percent_fakenews(apnews$Q44, "AP News")
+
 # Groups
 # Fake news data
 ap_control <- apnews_control$Q44

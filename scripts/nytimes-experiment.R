@@ -3,6 +3,10 @@
 # Q28: Most news media are biased against my views?
 # Q44 is: Do you think this news article is fake news?
 
+# See functions.R file
+barplot(table(nytimes$Q44), main = "NY Times")
+percent_fakenews(nytimes$Q44, "New York Times")
+
 # Groups
 # Fake news data
 ny_control <- nytimes_control$Q44

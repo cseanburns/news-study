@@ -43,7 +43,7 @@ mean(ny_fake_news$ny_groups)
 sd(ny_fake_news$ny_groups)
 # t.test compared to the scale mean
 t.test(ny_fake_news$ny_groups, mu = 2.50)
-                                     
+
 fit.ny <- aov(ny_groups ~ ny_conditions, data = ny_fake_news)
 summary(fit.ny)
 car::Anova(fit.ny)

@@ -1,9 +1,5 @@
 ### AP News
-
 # Analysis
-# Q44: Do you think this news article is fake news?
-# 1 = Definitely Yes
-# 5 = Definitely Not
 
 # See functions.R file
 barplot(table(apnews$Q44), main = "AP News")

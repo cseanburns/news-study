@@ -12,11 +12,11 @@ Description of variables investigated in the following regressions:
 ## Outcome variable
 
 - Q44: Do you think this news article is fake news?
-    - 1 = Definitely Yes
+    - 1: Definitely Yes
     - 2: Probably yes
     - 3: Might or might not
     - 4: Probably not
-    - 5 = Definitely Not
+    - 5: Definitely Not
 
 ## Predictor variables
 

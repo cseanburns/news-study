@@ -5,9 +5,3 @@ library("ggpubr") # for ggline
 library("haven") # import SPSS files
 library("psych")
 library("sjstats")
-
-#library("sjPlot")
-#library("stargazer")
-#library("pwr")
-#library("tidyr")
-#library("lsr")

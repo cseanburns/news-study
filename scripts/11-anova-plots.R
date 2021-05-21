@@ -10,7 +10,7 @@ multi.ny.group.unpaired <- ny_fake_news %>%
 # Compute the mean difference.
 multi.ny.group.unpaired.meandiff <- mean_diff(multi.ny.group.unpaired)
 # Create a multi-two group plot.
-tiff("plots/test.tif", width = 3860, height = 2160, pointsize = 12, res = 300)
+tiff("plots/anova-plots.tif", width = 3860, height = 2160, pointsize = 12, res = 300)
 fig1 <- multi.ny.group.unpaired.meandiff %>% plot(color.column = ny_conditions,
                                              rawplot.ylabel = "NY Times Groups",
                                              effsize.ylabel = "Delta Plot",

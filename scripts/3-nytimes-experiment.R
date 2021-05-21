@@ -48,10 +48,19 @@ fit.ny <- aov(ny_groups ~ ny_conditions, data = ny_fake_news)
 summary(fit.ny)
 car::Anova(fit.ny)
 sjstats::anova_stats(fit.ny)
-boxplot(ny_groups ~ ny_conditions, main = "NY Times", data = ny_fake_news)
-mtext(side=2, line=2, "1 = Definitely yes; 5 = Definitely not", col="black", font=1, cex=1.2)
+boxplot(ny_groups ~ ny_conditions,
+        main = "NY Times",
+        data = ny_fake_news)
+mtext(side=2,
+      line=2,
+      "1 = Definitely yes; 5 = Definitely not",
+      col="black",
+      font=1,
+      cex=1.2)
 
-ggpubr::ggline(ny_fake_news, x = "ny_conditions", y = "ny_groups",
+ggpubr::ggline(ny_fake_news,
+               x = "ny_conditions",
+               y = "ny_groups",
                title = "NY Times",
                add = "mean_se")
                                      

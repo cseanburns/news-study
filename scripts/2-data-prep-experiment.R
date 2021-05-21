@@ -29,7 +29,7 @@ nytimes_treatment3 <- nytimes %>% dplyr::filter(Q47_First_Click >=0)
 # Remove columns that identify treatment groups; not necessary now
 nytimes_control <- nytimes_control %>%
   select(-ends_with('First_Click'), -ends_with('Last_Click'),
-          -ends_with('Page_Submit'), -ends_with('Click_Count'))
+         -ends_with('Page_Submit'), -ends_with('Click_Count'))
 nytimes_treatment1 <- nytimes_treatment1 %>%
   select(-ends_with('First_Click'), -ends_with('Last_Click'),
          -ends_with('Page_Submit'), -ends_with('Click_Count'))

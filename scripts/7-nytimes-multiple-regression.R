@@ -1,5 +1,8 @@
+# Don't assume set even after running Anovas
 setwd("~/workspace/news-study/")
+# Don't assume packages are loaded even after running Anovas
 source("scripts/0-libraries.R")
+# Clear environment if full of Anova data
 rm(list = ls())
 
 ### NY Times
@@ -96,5 +99,4 @@ fit.nytimes.lm <- lm(Q44 ~ Q11 + Q21_1 +
                         Q43_1 + Q40, data = nytimes)
 
 summary(fit.nytimes.lm)
-forest_model(fit.nytimes.lm)
 round(confint(fit.nytimes.lm, level = 0.95), 2)

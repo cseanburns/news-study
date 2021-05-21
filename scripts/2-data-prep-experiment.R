@@ -29,20 +29,16 @@ nytimes_treatment3 <- nytimes %>% dplyr::filter(Q47_First_Click >=0)
 # Remove columns that identify treatment groups; not necessary now
 nytimes_control <- nytimes_control %>%
   select(-ends_with('First_Click'), -ends_with('Last_Click'),
-         -ends_with('Page_Submit'), -ends_with('Click_Count'),
-         -Q45___Topics)
+          -ends_with('Page_Submit'), -ends_with('Click_Count'))
 nytimes_treatment1 <- nytimes_treatment1 %>%
   select(-ends_with('First_Click'), -ends_with('Last_Click'),
-         -ends_with('Page_Submit'), -ends_with('Click_Count'),
-         -Q45___Topics)
+         -ends_with('Page_Submit'), -ends_with('Click_Count'))
 nytimes_treatment2 <- nytimes_treatment2 %>%
   select(-ends_with('First_Click'), -ends_with('Last_Click'),
-         -ends_with('Page_Submit'), -ends_with('Click_Count'),
-         -Q45___Topics)
+         -ends_with('Page_Submit'), -ends_with('Click_Count'))
 nytimes_treatment3 <- nytimes_treatment3 %>%
   select(-ends_with('First_Click'), -ends_with('Last_Click'),
-         -ends_with('Page_Submit'), -ends_with('Click_Count'),
-         -Q45___Topics)
+         -ends_with('Page_Submit'), -ends_with('Click_Count'))
 
 ###### Fox Data
 # Import data

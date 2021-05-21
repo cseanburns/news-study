@@ -12,7 +12,7 @@ multi.ny.group.unpaired.meandiff <- mean_diff(multi.ny.group.unpaired)
 # Create a multi-two group plot.
 tiff("plots/anova-plots.tif", width = 3860, height = 2160, pointsize = 12, res = 300)
 fig1 <- multi.ny.group.unpaired.meandiff %>% plot(color.column = ny_conditions,
-                                             rawplot.ylabel = "NY Times Groups",
+                                             rawplot.ylabel = "NY Times",
                                              effsize.ylabel = "Delta Plot",
                                              show.legend = FALSE)
 
@@ -26,7 +26,7 @@ multi.fox.group.unpaired <- fox_fake_news %>%
 multi.fox.group.unpaired.meandiff <- mean_diff(multi.fox.group.unpaired)
 # Create a multi-two group plot.
 fig2 <- multi.fox.group.unpaired.meandiff %>% plot(color.column = fox_conditions,
-                                             rawplot.ylabel = "Fox Groups",
+                                             rawplot.ylabel = "Fox News",
                                              effsize.ylabel = "Delta Plot",
                                              show.legend = FALSE)
 
@@ -40,7 +40,7 @@ multi.ap.group.unpaired <- ap_fake_news %>%
 multi.ap.group.unpaired.meandiff <- mean_diff(multi.ap.group.unpaired)
 # Create a multi-two group plot.
 fig3 <- multi.ap.group.unpaired.meandiff %>% plot(color.column = ap_conditions,
-                                             rawplot.ylabel = "AP Groups",
+                                             rawplot.ylabel = "AP News",
                                              effsize.ylabel = "Delta Plot",
                                              show.legend = FALSE)
 
@@ -54,7 +54,7 @@ multi.npr.group.unpaired <- npr_fake_news %>%
 multi.npr.group.unpaired.meandiff <- mean_diff(multi.npr.group.unpaired)
 # Create a multi-two group plot.
 fig4 <- multi.npr.group.unpaired.meandiff %>% plot(color.column = npr_conditions,
-                                              rawplot.ylabel = "NPR Groups",
+                                              rawplot.ylabel = "NPR",
                                               effsize.ylabel = "Delta Plot",
                                               show.legend = FALSE)
 grid.arrange(fig1, fig2, fig3, fig4, ncol = 2, nrow = 2)

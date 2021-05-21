@@ -88,11 +88,14 @@ npr$Q43_1 <- factor(npr$Q43_1,
                                  "Extremely Conservative"),
                       ordered = FALSE)
 
-fit.npr.lm <- lm(npr$Q44 ~ npr$Q11 + npr$Q21_1 +
-                        npr$Q26 + npr$Q28 + 
-                        npr$Q32 + npr$Q34 +
-                        npr$Q43_1 + npr$Q40)
+fit.npr.lm <- lm(Q44 ~ Q11 + Q21_1 + Q26 + Q28 + Q32 + Q34 + Q43_1 + Q40,
+              data = npr)
 
 summary(fit.npr.lm)
 forest_model(fit.npr.lm)
 round(confint(fit.npr.lm, level = 0.95), 2)
+
+# Done with models -- save output for importing into manuscript
+stargazer(fit.nytimes.lm, fit.foxnews.lm, fit.npr.lm,
+          column.labels = c("NY Times", "Fox News", "NPR"),
+          ci = TRUE, ci.level = 0.95, type = "html", out = "output/allmodels.html")

@@ -90,10 +90,8 @@ apnews$Q43_1 <- factor(apnews$Q43_1,
                                  "Extremely Conservative"),
                       ordered = FALSE)
 
-fit.apnews.lm <- lm(apnews$Q44 ~ apnews$Q11 + apnews$Q21_1 +
-                        apnews$Q26 + apnews$Q28 + 
-                        apnews$Q32 + apnews$Q34 +
-                        apnews$Q43_1 + apnews$Q40)
+fit.apnews.lm <- lm(Q44 ~ Q11 + Q21_1 + Q26 + Q28 +  Q32 + Q34 + Q43_1 + Q40,
+                    data = apnews)
 
 summary(fit.apnews.lm)
 forest_model(fit.apnews.lm)

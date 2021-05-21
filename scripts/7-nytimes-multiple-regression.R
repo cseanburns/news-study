@@ -18,7 +18,7 @@ nytimes$Q11 <- factor(nytimes$Q11,
                       labels = c("Yes",
                                  "No"),
                       ordered = FALSE)
-                      
+
 nytimes$Q21_1 <- factor(nytimes$Q21_1,
                       levels = c(1, 2, 3, 4, 5, 6, 7),
                       labels = c("Extremely Liberal",
@@ -90,10 +90,10 @@ nytimes$Q43_1 <- factor(nytimes$Q43_1,
                                  "Extremely Conservative"),
                       ordered = FALSE)
 
-fit.nytimes.lm <- lm(nytimes$Q44 ~ nytimes$Q11 + nytimes$Q21_1 +
-                        nytimes$Q26 + nytimes$Q28 + 
-                        nytimes$Q32 + nytimes$Q34 +
-                        nytimes$Q43_1 + nytimes$Q40)
+fit.nytimes.lm <- lm(Q44 ~ Q11 + Q21_1 +
+                        Q26 + Q28 + 
+                        Q32 + Q34 +
+                        Q43_1 + Q40, data = nytimes)
 
 summary(fit.nytimes.lm)
 forest_model(fit.nytimes.lm)

@@ -49,11 +49,8 @@ summary(fit.ny)
 car::Anova(fit.ny)
 sjstats::anova_stats(fit.ny)
 boxplot(ny_groups ~ ny_conditions, main = "NY Times", data = ny_fake_news)
+mtext(side=2, line=2, "1 = Definitely yes; 5 = Definitely not", col="black", font=1, cex=1.2)
 
-# Q44: Do you think this news article is fake news?
-# 1 = Definitely Yes
-# 5 = Definitely Not
-                                     
 ggpubr::ggline(ny_fake_news, x = "ny_conditions", y = "ny_groups",
                title = "NY Times",
                add = "mean_se")

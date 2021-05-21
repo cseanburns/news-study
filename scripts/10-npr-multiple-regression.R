@@ -1,7 +1,3 @@
-setwd("~/workspace/news-study/")
-source("scripts/0-libraries.R")
-rm(list = ls())
-
 ### NPR
 # Import Data
 npr <- read_sav("data/4-summer2020-npr.sav")
@@ -92,10 +88,4 @@ fit.npr.lm <- lm(Q44 ~ Q11 + Q21_1 + Q26 + Q28 + Q32 + Q34 + Q43_1 + Q40,
               data = npr)
 
 summary(fit.npr.lm)
-forest_model(fit.npr.lm)
 round(confint(fit.npr.lm, level = 0.95), 2)
-
-# Done with models -- save output for importing into manuscript
-stargazer(fit.nytimes.lm, fit.foxnews.lm, fit.npr.lm,
-          column.labels = c("NY Times", "Fox News", "NPR"),
-          ci = TRUE, ci.level = 0.95, type = "html", out = "output/allmodels.html")

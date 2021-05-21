@@ -1,7 +1,3 @@
-setwd("~/workspace/news-study/")
-source("scripts/0-libraries.R")
-rm(list = ls())
-
 ### Fox News
 # Import Data
 foxnews <- read_sav("data/2-fall2019-fox.sav")
@@ -94,5 +90,4 @@ fit.foxnews.lm <- lm(Q44 ~ Q11 + Q21_1 + Q26 + Q28 +  Q32 + Q34 + Q43_1 + Q40,
                      data = foxnews)
 
 summary(fit.foxnews.lm)
-forest_model(fit.foxnews.lm)
 round(confint(fit.foxnews.lm, level = 0.95), 2)

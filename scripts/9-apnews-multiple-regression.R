@@ -1,6 +1,6 @@
 setwd("~/workspace/news-study/")
 source("scripts/0-libraries.R")
-rm(list = ls())
+#rm(list = ls())
 
 ### AP News
 # Import Data

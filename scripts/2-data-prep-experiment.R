@@ -1,7 +1,7 @@
 setwd("~/workspace/news-study/")
+rm(list = ls())
 source("scripts/0-libraries.R")
 source("scripts/1-functions.R")
-rm(list = ls())
 
 ###### NY Times Data
 # Import data

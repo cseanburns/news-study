@@ -49,6 +49,7 @@ summary(fit.fox)
 car::Anova(fit.fox)
 sjstats::anova_stats(fit.fox)
 boxplot(fox_groups ~ fox_conditions, main = "Fox News", data = fox_fake_news)
+mtext(side=2, line=2, "1 = Definitely yes; 5 = Definitely not", col="black", font=1, cex=1.2)
 
 ggpubr::ggline(fox_fake_news, x = "fox_conditions", y = "fox_groups",
                title = "Fox News",

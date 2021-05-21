@@ -49,6 +49,7 @@ summary(fit.npr)
 car::Anova(fit.npr)
 sjstats::anova_stats(fit.npr)
 boxplot(npr_groups ~ npr_conditions, main = "NPR", data = npr_fake_news)
+mtext(side=2, line=2, "1 = Definitely yes; 5 = Definitely not", col="black", font=1, cex=1.2)
 
 ggpubr::ggline(npr_fake_news, x = "npr_conditions", y = "npr_groups",
                title = "NPR",

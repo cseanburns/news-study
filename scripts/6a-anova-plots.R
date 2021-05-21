@@ -44,7 +44,7 @@ multi.npr.group.unpaired <- npr_fake_news %>%
 multi.npr.group.unpaired.meandiff <- mean_diff(multi.npr.group.unpaired)
 
 
-# Create a multi-two group plot.
+# Create a multi group plot.
 tiff("plots/anova-plots.tif",
      width = 3860,
      height = 2160,

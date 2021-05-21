@@ -17,9 +17,14 @@ condition_treatment1_y <- rep(1, length(ap_treatment1))
 condition_treatment2_y <- rep(2, length(ap_treatment2))
 condition_treatment3_y <- rep(3, length(ap_treatment3))
 
-ap_groups <- c(ap_control, ap_treatment1, ap_treatment2, ap_treatment3)
-ap_conditions <- c(condition_control_y, condition_treatment1_y,
-                   condition_treatment2_y, condition_treatment3_y)
+ap_groups <- c(ap_control,
+               ap_treatment1,
+               ap_treatment2,
+               ap_treatment3)
+ap_conditions <- c(condition_control_y,
+                   condition_treatment1_y,
+                   condition_treatment2_y,
+                   condition_treatment3_y)
 
 ap_fake_news <- data.frame(ap_groups, ap_conditions)
 
@@ -44,14 +49,24 @@ sd(ap_fake_news$ap_groups)
 # t.test compared to the scale mean
 t.test(ap_fake_news$ap_groups, mu = 2.50)
 
-fit.ap <- aov(ap_groups ~ ap_conditions, data = ap_fake_news)
+fit.ap <- aov(ap_groups ~ ap_conditions,
+              data = ap_fake_news)
 summary(fit.ap)
 car::Anova(fit.ap)
 sjstats::anova_stats(fit.ap)
-boxplot(ap_groups ~ ap_conditions, main = "AP News", data = ap_fake_news)
-mtext(side=2, line=2, "1 = Definitely yes; 5 = Definitely not", col="black", font=1, cex=1.2)
+boxplot(ap_groups ~ ap_conditions,
+        main = "AP News",
+        data = ap_fake_news)
+mtext(side=2,
+      line=2,
+      "1 = Definitely yes; 5 = Definitely not",
+      col="black",
+      font=1,
+      cex=1.2)
 
-ggpubr::ggline(ap_fake_news, x = "ap_conditions", y = "ap_groups",
+ggpubr::ggline(ap_fake_news,
+               x = "ap_conditions",
+               y = "ap_groups",
                title = "AP News",
                add = "mean_se")
 

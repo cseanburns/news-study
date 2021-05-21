@@ -86,8 +86,15 @@ foxnews$Q43_1 <- factor(foxnews$Q43_1,
                                  "Extremely Conservative"),
                       ordered = FALSE)
 
-fit.foxnews.lm <- lm(Q44 ~ Q11 + Q21_1 + Q26 + Q28 +  Q32 + Q34 + Q43_1 + Q40,
-                     data = foxnews)
+fit.foxnews.lm <- lm(Q44 ~ Q11 +
+                     Q21_1 +
+                     Q26 +
+                     Q28 +
+                     Q32 +
+                     Q34 +
+                     Q43_1 +
+                     Q40,
+                   data = foxnews)
 
 summary(fit.foxnews.lm)
 round(confint(fit.foxnews.lm, level = 0.95), 2)

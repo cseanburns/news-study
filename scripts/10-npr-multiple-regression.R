@@ -84,8 +84,15 @@ npr$Q43_1 <- factor(npr$Q43_1,
                                  "Extremely Conservative"),
                       ordered = FALSE)
 
-fit.npr.lm <- lm(Q44 ~ Q11 + Q21_1 + Q26 + Q28 + Q32 + Q34 + Q43_1 + Q40,
-              data = npr)
+fit.npr.lm <- lm(Q44 ~ Q11 +
+                 Q21_1 +
+                 Q26 +
+                 Q28 +
+                 Q32 +
+                 Q34 +
+                 Q43_1 +
+                 Q40,
+               data = npr)
 
 summary(fit.npr.lm)
 round(confint(fit.npr.lm, level = 0.95), 2)

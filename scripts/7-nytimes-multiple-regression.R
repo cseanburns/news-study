@@ -93,10 +93,15 @@ nytimes$Q43_1 <- factor(nytimes$Q43_1,
                                  "Extremely Conservative"),
                       ordered = FALSE)
 
-fit.nytimes.lm <- lm(Q44 ~ Q11 + Q21_1 +
-                        Q26 + Q28 + 
-                        Q32 + Q34 +
-                        Q43_1 + Q40, data = nytimes)
+fit.nytimes.lm <- lm(Q44 ~ Q11 +
+                     Q21_1 +
+                     Q26 +
+                     Q28 + 
+                     Q32 +
+                     Q34 +
+                     Q43_1 +
+                     Q40,
+                   data = nytimes)
 
 summary(fit.nytimes.lm)
 round(confint(fit.nytimes.lm, level = 0.95), 2)

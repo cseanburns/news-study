@@ -6,8 +6,10 @@ foxnews <- read_sav("data/2-fall2019-fox.sav")
 foxnews <- foxnews %>% dplyr::filter(Finished == 1)
 # Remove anyone who didn't answer age question or is younger than 18
 foxnews <- foxnews %>% dplyr::filter(Q3_1 >= 2)
-# Keep only data columns
-foxnews <- foxnews %>% dplyr::select(starts_with("Q"))
+
+# Keep only needed columns
+foxnews <-  foxnews %>%
+  dplyr::select(Q11, Q21_1, Q26, Q28, Q32, Q34, Q40, Q43_1, Q44)
 
 foxnews$Q11 <- factor(foxnews$Q11,
                       levels = c(1, 2),

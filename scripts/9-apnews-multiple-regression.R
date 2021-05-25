@@ -10,8 +10,10 @@ apnews <- read_sav("data/3-spring2020-ap.sav")
 apnews <- apnews %>% dplyr::filter(Finished == 1)
 # Remove anyone who didn't answer age question or is younger than 18
 apnews <- apnews %>% dplyr::filter(Q3_1 >= 2)
-# Keep only data columns
-apnews <- apnews %>% dplyr::select(starts_with("Q"))
+
+# Keep only needed columns
+apnews <-  apnews %>%
+  dplyr::select(Q11, Q21_1, Q26, Q28, Q32, Q34, Q40, Q43_1, Q44)
 
 apnews$Q11 <- factor(apnews$Q11,
                       levels = c(1, 2),

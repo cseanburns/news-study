@@ -7,6 +7,10 @@ npr <- npr %>% dplyr::filter(Finished == 1)
 # Keep only data columns
 npr <- npr %>% dplyr::select(starts_with("Q"))
 
+# Keep only needed columns
+npr <-  npr %>%
+  dplyr::select(Q11, Q21_1, Q26, Q28, Q32, Q34, Q40, Q43_1, Q44)
+
 npr$Q11 <- factor(npr$Q11,
                       levels = c(1, 2),
                       labels = c("Yes",

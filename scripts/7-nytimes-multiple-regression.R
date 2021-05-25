@@ -13,8 +13,10 @@ nytimes <- read_sav("data/1-spring2019-nytimes.sav")
 nytimes <- nytimes %>% dplyr::filter(Finished == 1)
 # Remove anyone who didn't answer age question or is younger than 18
 nytimes <- nytimes %>% dplyr::filter(Q3_1 >= 2)
-# Keep only data columns
-nytimes <- nytimes %>% dplyr::select(starts_with("Q"))
+
+# Keep only needed columns
+nytimes <- nytimes %>%
+  dplyr::select(Q11, Q21_1, Q26, Q28, Q32, Q34, Q40, Q43_1, Q44)
 
 nytimes$Q11 <- factor(nytimes$Q11,
                       levels = c(1, 2),

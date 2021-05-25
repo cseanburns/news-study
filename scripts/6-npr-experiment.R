@@ -2,6 +2,7 @@
 # Analysis
 
 # See functions.R file:
+# Fake news question
 barplot(table(npr$Q44), main = "NPR")
 percent_fakenews(npr$Q44, "NPR")
 
@@ -51,7 +52,6 @@ t.test(npr_fake_news$npr_groups, mu = 2.50)
 
 fit.npr <- aov(npr_groups ~ npr_conditions,
                data = npr_fake_news)
-summary(fit.npr)
 car::Anova(fit.npr)
 sjstats::anova_stats(fit.npr)
 boxplot(npr_groups ~ npr_conditions,

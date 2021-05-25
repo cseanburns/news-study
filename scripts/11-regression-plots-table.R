@@ -11,6 +11,8 @@ forest_model(fit.nytimes.lm,
   labs(title = "NY Times",
        x = NULL,
        y = NULL) +
+  geom_label(x = -1, y = 44, label = "Fake") +
+  geom_label(x = 1, y = 44, label = "Not Fake") +
   scale_y_discrete(labels = NULL) +
   theme_pubclean()
 dev.off()
@@ -26,6 +28,8 @@ forest_model(fit.foxnews.lm,
   labs(title = "Fox News",
        x = NULL,
        y = NULL) +
+  geom_label(x = -1, y = 44, label = "Fake") +
+  geom_label(x = 1, y = 44, label = "Not Fake") +
   scale_y_discrete(labels = NULL) +
   theme_pubclean()
 dev.off()
@@ -40,6 +44,8 @@ forest_model(fit.npr.lm,
   labs(title = "NPR",
        x = NULL,
        y = NULL) +
+  geom_label(x = -2, y = 45, label = "Fake") +
+  geom_label(x = 1, y = 45, label = "Not Fake") +
   scale_y_discrete(labels = NULL) +
   theme_pubclean()
 dev.off()

@@ -8,9 +8,11 @@ source("scripts/1-functions.R")
 nytimes <- read_sav("data/1-spring2019-nytimes.sav")
 
 # Keep only completed surveys
-nytimes <- nytimes %>% dplyr::filter(Finished == 1)
+nytimes <- nytimes %>%
+  dplyr::filter(Finished == 1)
 # Remove anyone who didn't answer age question or is younger than 18
-nytimes <- nytimes %>% dplyr::filter(Q3_1 >= 2)
+nytimes <- nytimes %>%
+  dplyr::filter(Q3_1 >= 2)
 
 # Partition data into treatment groups
 # Groups
@@ -38,9 +40,11 @@ nytimes_treatment3 <- nytimes %>%
 foxnews <- read_sav("data/2-fall2019-fox.sav")
 
 # Keep only completed surveys
-foxnews <- foxnews %>% dplyr::filter(Finished == 1)
+foxnews <- foxnews %>%
+  dplyr::filter(Finished == 1)
 # Remove anyone who didn't answer age question or is younger than 18
-foxnews <- foxnews %>% dplyr::filter(Q3_1 >= 2)
+foxnews <- foxnews %>%
+  dplyr::filter(Q3_1 >= 2)
 
 # Partition data into treatment groups
 # Groups
@@ -68,9 +72,11 @@ fox_treatment3 <- foxnews %>%
 apnews <- read_sav("data/3-spring2020-ap.sav")
 
 # Keep only completed surveys
-apnews <- apnews %>% dplyr::filter(Finished == 1)
+apnews <- apnews %>%
+  dplyr::filter(Finished == 1)
 # Remove anyone who didn't answer age question or is younger than 18
-apnews <- apnews %>% dplyr::filter(Q3_1 >= 2)
+apnews <- apnews %>%
+  dplyr::filter(Q3_1 >= 2)
 
 # Partition data into treatment groups
 # Groups

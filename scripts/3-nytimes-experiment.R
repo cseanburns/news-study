@@ -2,6 +2,7 @@
 # Analysis
 
 # See functions.R file
+# Fake news question
 barplot(table(nytimes$Q44), main = "NY Times")
 percent_fakenews(nytimes$Q44, "New York Times")
 
@@ -52,7 +53,6 @@ t.test(ny_fake_news$ny_groups, mu = 2.50)
 
 fit.ny <- aov(ny_groups ~ ny_conditions,
               data = ny_fake_news)
-summary(fit.ny)
 car::Anova(fit.ny)
 sjstats::anova_stats(fit.ny)
 boxplot(ny_groups ~ ny_conditions,

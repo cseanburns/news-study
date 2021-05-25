@@ -2,6 +2,7 @@
 # Analysis
 
 # See functions.R file
+# Fake news question
 barplot(table(foxnews$Q44), main = "Fox News")
 percent_fakenews(foxnews$Q44, "Fox News")
 
@@ -52,7 +53,6 @@ t.test(fox_fake_news$fox_groups, mu = 2.50)
 
 fit.fox <- aov(fox_groups ~ fox_conditions,
                data = fox_fake_news)
-summary(fit.fox)
 car::Anova(fit.fox)
 sjstats::anova_stats(fit.fox)
 boxplot(fox_groups ~ fox_conditions,

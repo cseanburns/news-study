@@ -2,9 +2,9 @@
 # See: https://cran.r-project.org/web/packages/dabestr/vignettes/using-dabestr.html
 
 ## NY Times
-multi.ny.group.unpaired <- ny_fake_news %>%
-  dabest(ny_conditions,
-         ny_groups,
+multi.ny.group.unpaired <- nytimes_fake_news %>%
+  dabest(nytimes_conditions,
+         nytimes_groups,
          idx = list(c("Control",
                       "Treatment1",
                       "Treatment2",
@@ -52,7 +52,7 @@ tiff("plots/anova-plots.tif",
      res = 300)
 
 ## NY Times plot
-fig1 <- multi.ny.group.unpaired.meandiff %>% plot(color.column = ny_conditions,
+fig1 <- multi.ny.group.unpaired.meandiff %>% plot(color.column = nytimes_conditions,
                                              rawplot.ylabel = "NY Times",
                                              effsize.ylabel = "Delta Plot",
                                              show.legend = FALSE)

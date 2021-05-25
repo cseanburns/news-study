@@ -73,3 +73,10 @@ ggpubr::ggline(fox_fake_news,
 
 TukeyHSD(fit.fox)
 plot(TukeyHSD(fit.fox))
+
+
+## Get Frequency of undecided participants
+foxtmp <- data.frame(table(fox_fake_news))
+fox.rows <- rowsum(foxtmp$Freq, foxtmp$fox_groups)
+fox.cols <- colSums(rowsum(foxtmp$Freq, foxtmp$fox_groups))
+round(fox.rows / fox.cols, 2) * 100

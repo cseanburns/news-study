@@ -72,3 +72,9 @@ ggpubr::ggline(ap_fake_news,
 
 TukeyHSD(fit.ap)
 plot(TukeyHSD(fit.ap))
+
+## Get Frequency of undecided participants
+aptmp <- data.frame(table(ap_fake_news))
+ap.rows <- rowsum(aptmp$Freq, aptmp$ap_groups)
+ap.cols <- colSums(rowsum(aptmp$Freq, aptmp$ap_groups))
+round(ap.rows / ap.cols, 2) * 100

@@ -73,3 +73,9 @@ ggpubr::ggline(nytimes_fake_news,
                                      
 TukeyHSD(fit.ny)
 plot(TukeyHSD(fit.ny))
+
+## Get Frequency of undecided participants
+nytmp <- data.frame(table(nytimes_fake_news))
+ny.rows <- rowsum(nytmp$Freq, nytmp$nytimes_groups)
+ny.cols <- colSums(rowsum(nytmp$Freq, nytmp$nytimes_groups))
+round(ny.rows / ny.cols, 2) * 100

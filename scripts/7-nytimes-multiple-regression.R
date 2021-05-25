@@ -33,7 +33,7 @@ nytimes$Q21_1 <- factor(nytimes$Q21_1,
                                  "Extremely Conservative"),
                       ordered = FALSE)
 
- nytimes$Q26 <- factor(nytimes$Q26,
+nytimes$Q26 <- factor(nytimes$Q26,
                       levels = c(1, 2, 3, 4, 5),
                       labels = c("Never",
                                  "Rarely",

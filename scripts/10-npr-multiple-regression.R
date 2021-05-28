@@ -102,7 +102,9 @@ summary(fit.npr.lm)
 round(confint(fit.npr.lm, level = 0.95), 2)
 
 # Save NPR output to CSV file
-write.csv2(npr,
+write.table(npr,
            file = "data-public/npr-data.csv",
            quote = TRUE,
+           sep = ",",
+           row.names = FALSE,
            na = "NA")

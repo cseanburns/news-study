@@ -100,3 +100,9 @@ fit.npr.lm <- lm(Q44 ~ Q11 +
 
 summary(fit.npr.lm)
 round(confint(fit.npr.lm, level = 0.95), 2)
+
+# Save NPR output to CSV file
+write.csv2(npr,
+           file = "data-public/npr-data.csv",
+           quote = TRUE,
+           na = "NA")

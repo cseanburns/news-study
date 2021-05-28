@@ -49,7 +49,7 @@ multi.npr.group.unpaired.meandiff <- mean_diff(multi.npr.group.unpaired)
 
 
 # Create a multi group plot.
-tiff("plots/anova-plots.tif",
+tiff("plots/fig1-anova-plots.tif",
      width = 3860,
      height = 2160,
      pointsize = 12,

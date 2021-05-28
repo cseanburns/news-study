@@ -1,7 +1,7 @@
 # Plots and Model Tables for Regressions
 
 ## NY Times plot
-tiff("plots/fig1-nytimes-regression-plot.tif",
+tiff("plots/fig2-nytimes-regression-plot.tif",
      width = 3860,
      height = 2160,
      pointsize = 12,
@@ -18,7 +18,7 @@ forest_model(fit.nytimes.lm,
 dev.off()
 
 ## Fox News plot
-tiff("plots/fig2-fox-regression-plot.tif",
+tiff("plots/fig3-fox-regression-plot.tif",
      width = 3860,
      height = 2160,
      pointsize = 12,
@@ -52,7 +52,7 @@ forest_model(fit.apnews.lm,
 dev.off()
 
 ## NPR plot
-tiff("plots/fig3-npr-regression-plot.tif",
+tiff("plots/fig4-npr-regression-plot.tif",
      width = 3860,
      height = 2160,
      pointsize = 12,

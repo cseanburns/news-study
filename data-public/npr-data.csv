@@ -1,304 +1,304 @@
-"";"Q11";"Q21_1";"Q26";"Q28";"Q32";"Q34";"Q40";"Q43_1";"Q44"
-"1";"Yes";"Fairly Liberal";"Often";"Disagree";"Sometimes";"Often";"Strongly agree";"Liberal";5
-"2";"No";"Extremely Liberal";"Often";"Somewhat disagree";"Often";"Often";"Somewhat agree";"Fairly Liberal";3
-"3";"Yes";"Center";"Sometimes";"Somewhat agree";"Sometimes";"Sometimes";"Neither agree nor disagree";"Center";3
-"4";"Yes";"Conservative";"Sometimes";"Agree";"Never";"Rarely";"Strongly agree";"Liberal";3
-"5";"Yes";"Conservative";"Rarely";"Neither agree nor disagree";"Always";"Sometimes";"Somewhat agree";"Conservative";4
-"6";"Yes";"Center";"Never";"Neither agree nor disagree";"Rarely";"Never";"Neither agree nor disagree";"Center";3
-"7";"No";"Center";"Sometimes";"Somewhat disagree";"Sometimes";"Often";"Strongly agree";"Center";5
-"8";"Yes";"Fairly Liberal";"Always";"Agree";"Often";"Never";"Agree";"Liberal";1
-"9";"No";"Fairly Conservative";"Rarely";"Neither agree nor disagree";"Sometimes";"Sometimes";"Neither agree nor disagree";"Liberal";3
-"10";"Yes";"Center";"Often";"Strongly agree";"Never";"Often";"Strongly agree";"Center";4
-"11";"Yes";"Extremely Liberal";"Rarely";"Neither agree nor disagree";"Rarely";"Sometimes";"Strongly agree";"Liberal";5
-"12";"Yes";"Extremely Conservative";"Rarely";"Strongly agree";"Rarely";"Rarely";"Agree";"Extremely Conservative";4
-"13";"Yes";"Liberal";"Sometimes";"Neither agree nor disagree";"Rarely";"Sometimes";"Agree";"Liberal";5
-"14";"Yes";"Extremely Conservative";"Sometimes";"Strongly agree";"Never";"Sometimes";"Somewhat disagree";"Fairly Liberal";2
-"15";"Yes";"Center";"Often";"Neither agree nor disagree";"Sometimes";"Often";"Agree";"Center";4
-"16";"No";"Fairly Conservative";"Sometimes";"Neither agree nor disagree";"Rarely";"Rarely";"Agree";"Center";3
-"17";"No";"Liberal";"Often";"Neither agree nor disagree";"Sometimes";"Sometimes";"Agree";"Center";4
-"18";"Yes";"Liberal";"Often";"Somewhat disagree";"Sometimes";"Often";"Agree";"Liberal";4
-"19";"Yes";"Liberal";"Often";"Somewhat agree";"Rarely";"Often";"Agree";"Liberal";4
-"20";"No";"Center";"Rarely";"Somewhat agree";"Rarely";"Rarely";"Agree";"Center";3
-"21";"No";"Fairly Liberal";"Sometimes";"Neither agree nor disagree";"Rarely";"Sometimes";"Agree";"Fairly Liberal";5
-"22";"Yes";"Fairly Conservative";"Always";"Strongly agree";"Often";"Always";"Strongly agree";"Fairly Conservative";1
-"23";"Yes";"Center";"Rarely";"Somewhat disagree";"Rarely";"Rarely";"Agree";"Center";3
-"24";"No";"Liberal";"Often";"Somewhat agree";"Often";"Often";"Somewhat agree";"Liberal";3
-"25";"No";"Liberal";"Often";"Somewhat disagree";"Often";"Always";"Agree";"Fairly Liberal";1
-"26";"Yes";"Center";"Often";"Somewhat agree";"Sometimes";"Sometimes";"Somewhat agree";"Center";4
-"27";"Yes";"Fairly Liberal";"Rarely";"Neither agree nor disagree";"Sometimes";"Sometimes";"Agree";"Liberal";3
-"28";"Yes";"Extremely Liberal";"Rarely";"Somewhat agree";"Sometimes";"Rarely";"Somewhat disagree";"Liberal";4
-"29";"Yes";"Center";"Sometimes";"Agree";"Rarely";"Sometimes";"Agree";"Liberal";5
-"30";"No";"Fairly Conservative";"Often";"Somewhat agree";"Sometimes";"Sometimes";"Somewhat agree";"Fairly Conservative";4
-"31";"Yes";"Extremely Conservative";"Often";"Agree";"Rarely";"Often";"Neither agree nor disagree";"Extremely Conservative";4
-"32";"Yes";"Conservative";"Rarely";"Agree";"Sometimes";"Rarely";"Agree";"Fairly Conservative";3
-"33";"Yes";"Extremely Conservative";"Often";"Agree";"Often";"Often";"Agree";"Extremely Conservative";2
-"34";"Yes";"Center";"Sometimes";"Somewhat agree";"Sometimes";"Often";"Somewhat agree";"Center";3
-"35";"Yes";"Fairly Liberal";"Often";"Neither agree nor disagree";"Often";"Often";"Agree";"Fairly Liberal";4
-"36";"No";"Extremely Conservative";"Sometimes";"Strongly agree";"Rarely";"Rarely";"Somewhat agree";"Extremely Conservative";3
-"37";"No";"Center";"Rarely";"Somewhat disagree";"Never";"Sometimes";"Strongly agree";"Extremely Conservative";4
-"38";"No";"Liberal";"Never";"Disagree";"Never";"Never";"Neither agree nor disagree";"Liberal";3
-"39";"Yes";"Center";"Often";"Neither agree nor disagree";"Sometimes";"Often";"Strongly agree";"Center";5
-"40";"Yes";"Center";"Never";"Neither agree nor disagree";"Never";"Never";"Neither agree nor disagree";"Center";3
-"41";"Yes";"Center";"Always";"Somewhat agree";"Always";"Always";"Strongly agree";"Center";5
-"42";"Yes";"Center";"Often";"Neither agree nor disagree";"Sometimes";"Always";"Neither agree nor disagree";"Center";3
-"43";"No";"Fairly Conservative";"Sometimes";"Somewhat agree";"Often";"Rarely";"Agree";"Fairly Liberal";3
-"44";"Yes";"Center";"Sometimes";"Neither agree nor disagree";"Rarely";"Sometimes";"Somewhat agree";"Center";4
-"45";"Yes";"Conservative";"Sometimes";"Somewhat agree";"Sometimes";"Sometimes";"Somewhat agree";"Conservative";3
-"46";"Yes";"Extremely Liberal";"Rarely";"Neither agree nor disagree";"Rarely";"Sometimes";"Strongly agree";"Fairly Liberal";4
-"47";"No";"Center";"Sometimes";"Neither agree nor disagree";"Rarely";"Sometimes";"Somewhat agree";"Center";3
-"48";"No";"Conservative";"Rarely";"Somewhat agree";"Never";"Rarely";"Somewhat agree";"Conservative";3
-"49";"No";"Extremely Liberal";"Rarely";"Neither agree nor disagree";"Rarely";"Rarely";"Neither agree nor disagree";"Center";3
-"50";"Yes";"Fairly Conservative";"Often";"Agree";"Often";"Often";"Agree";"Fairly Conservative";2
-"51";"Yes";"Fairly Liberal";"Often";"Somewhat agree";"Sometimes";"Often";"Somewhat disagree";"Liberal";1
-"52";"No";"Conservative";"Always";"Neither agree nor disagree";"Always";"Always";"Strongly agree";"Extremely Conservative";4
-"53";"No";"Center";"Sometimes";"Neither agree nor disagree";"Never";"Sometimes";"Agree";"Fairly Liberal";4
-"54";"Yes";"Center";"Sometimes";"Agree";"Sometimes";"Often";"Agree";"Center";4
-"55";"Yes";"Fairly Liberal";"Sometimes";"Neither agree nor disagree";"Sometimes";"Often";"Agree";"Fairly Liberal";4
-"56";"No";"Center";"Sometimes";"Neither agree nor disagree";"Rarely";"Rarely";"Neither agree nor disagree";"Center";3
-"57";"No";"Center";"Sometimes";"Somewhat agree";"Sometimes";"Sometimes";"Neither agree nor disagree";"Center";5
-"58";"Yes";"Center";"Rarely";"Neither agree nor disagree";"Rarely";"Never";"Agree";"Center";3
-"59";"Yes";"Conservative";"Often";"Strongly agree";"Always";"Always";"Strongly agree";"Fairly Conservative";1
-"60";"Yes";"Fairly Liberal";"Sometimes";"Neither agree nor disagree";"Rarely";"Sometimes";"Agree";"Center";1
-"61";"No";"Center";"Sometimes";"Neither agree nor disagree";"Never";"Sometimes";"Neither agree nor disagree";"Liberal";3
-"62";"Yes";"Fairly Conservative";"Always";"Neither agree nor disagree";"Rarely";"Often";"Somewhat agree";"Conservative";3
-"63";"Yes";"Conservative";"Often";"Somewhat agree";"Often";"Often";"Somewhat agree";"Fairly Conservative";2
-"64";"Yes";"Center";"Sometimes";"Neither agree nor disagree";"Sometimes";"Sometimes";"Neither agree nor disagree";"Center";3
-"65";"No";"Fairly Conservative";"Often";"Agree";"Sometimes";"Often";"Agree";"Fairly Conservative";2
-"66";"Yes";"Fairly Conservative";"Often";"Disagree";"Often";"Always";"Strongly agree";"Liberal";5
-"67";"Yes";"Extremely Liberal";"Sometimes";"Neither agree nor disagree";"Often";"Often";"Neither agree nor disagree";"Center";3
-"68";"Yes";"Fairly Liberal";"Sometimes";"Somewhat disagree";"Sometimes";"Often";"Strongly agree";"Center";5
-"69";"Yes";"Extremely Liberal";"Sometimes";"Agree";"Often";"Sometimes";"Strongly agree";"Fairly Liberal";2
-"70";"No";"Center";"Never";"Neither agree nor disagree";"Rarely";"Never";"Neither agree nor disagree";"Center";3
-"71";"Yes";"Center";"Sometimes";"Neither agree nor disagree";"Rarely";"Often";"Strongly agree";"Center";5
-"72";"Yes";"Center";"Often";"Somewhat agree";"Sometimes";"Often";"Agree";"Conservative";4
-"73";"No";"Conservative";"Sometimes";"Neither agree nor disagree";"Sometimes";"Sometimes";"Agree";"Center";4
-"74";"No";"Center";"Rarely";"Neither agree nor disagree";"Rarely";"Rarely";"Neither agree nor disagree";"Center";4
-"75";"No";"Center";"Never";"Neither agree nor disagree";"Never";"Never";"Somewhat agree";"Center";3
-"76";"No";"Liberal";"Rarely";"Agree";"Rarely";"Rarely";"Strongly agree";"Liberal";1
-"77";"Yes";"Conservative";"Often";"Somewhat agree";"Sometimes";"Often";"Agree";"Conservative";3
-"78";"Yes";"Fairly Conservative";"Often";"Disagree";"Rarely";"Often";"Strongly agree";"Center";4
-"79";"No";"Conservative";"Often";"Somewhat agree";"Often";"Sometimes";"Somewhat disagree";"Conservative";3
-"80";"Yes";"Extremely Conservative";"Always";"Somewhat disagree";"Always";"Always";"Strongly agree";"Center";5
-"81";"Yes";"Extremely Conservative";"Sometimes";"Strongly agree";"Sometimes";"Sometimes";"Agree";"Conservative";4
-"82";"No";"Fairly Conservative";"Sometimes";"Somewhat agree";"Sometimes";"Often";"Agree";"Fairly Conservative";4
-"83";"No";"Center";"Never";"Neither agree nor disagree";"Rarely";"Never";"Strongly agree";"Center";5
-"84";"No";"Extremely Conservative";"Often";"Somewhat agree";"Rarely";"Sometimes";"Somewhat disagree";"Liberal";3
-"85";"Yes";"Conservative";"Sometimes";"Somewhat agree";"Sometimes";"Sometimes";"Somewhat agree";"Conservative";2
-"86";"No";"Liberal";"Never";"Strongly disagree";"Never";"Never";"Strongly agree";"Fairly Liberal";5
-"87";"Yes";"Conservative";"Sometimes";"Somewhat agree";"Rarely";"Rarely";"Agree";"Center";3
-"88";"Yes";"Extremely Conservative";"Often";"Somewhat disagree";"Always";"Often";"Agree";"Extremely Conservative";3
-"89";"Yes";"Conservative";"Sometimes";"Somewhat agree";"Sometimes";"Sometimes";"Somewhat agree";"Conservative";4
-"90";"Yes";"Liberal";"Sometimes";"Somewhat agree";"Sometimes";"Sometimes";"Neither agree nor disagree";"Liberal";4
-"91";"No";"Conservative";"Sometimes";"Agree";"Sometimes";"Rarely";"Strongly agree";"Liberal";2
-"92";"Yes";"Conservative";"Sometimes";"Neither agree nor disagree";"Rarely";"Never";"Agree";"Conservative";4
-"93";"Yes";"Conservative";"Sometimes";"Agree";"Rarely";"Sometimes";"Neither agree nor disagree";"Conservative";3
-"94";"Yes";"Conservative";"Sometimes";"Somewhat agree";"Rarely";"Rarely";"Agree";"Conservative";4
-"95";"Yes";"Fairly Conservative";"Sometimes";"Agree";"Sometimes";"Sometimes";"Agree";"Fairly Conservative";3
-"96";"No";"Center";"Rarely";"Somewhat agree";"Never";"Never";"Neither agree nor disagree";"Liberal";2
-"97";"No";"Fairly Conservative";"Sometimes";"Strongly agree";"Rarely";"Sometimes";"Agree";"Extremely Liberal";3
-"98";"Yes";"Conservative";"Rarely";"Somewhat disagree";"Never";"Sometimes";"Agree";"Fairly Conservative";4
-"99";"Yes";"Extremely Conservative";"Sometimes";"Strongly agree";"Rarely";"Sometimes";"Disagree";"Fairly Liberal";2
-"100";"Yes";"Extremely Conservative";"Often";"Agree";"Always";"Often";"Agree";"Extremely Conservative";4
-"101";"No";"Fairly Conservative";"Often";"Agree";"Sometimes";"Often";"Somewhat agree";"Center";4
-"102";"Yes";"Extremely Liberal";"Often";"Disagree";"Often";"Often";"Strongly agree";"Center";5
-"103";"Yes";"Fairly Conservative";"Sometimes";"Strongly agree";"Never";"Often";"Agree";"Fairly Conservative";5
-"104";"Yes";"Extremely Conservative";"Often";"Disagree";"Sometimes";"Rarely";"Somewhat agree";"Center";2
-"105";"Yes";"Center";"Rarely";"Agree";"Rarely";"Rarely";"Agree";"Center";2
-"106";"Yes";"Fairly Liberal";"Sometimes";"Neither agree nor disagree";"Sometimes";"Often";"Somewhat agree";"Fairly Liberal";4
-"107";"Yes";"Fairly Conservative";"Often";"Strongly agree";"Rarely";"Often";"Agree";"Center";4
-"108";"Yes";"Fairly Conservative";"Often";"Agree";"Sometimes";"Often";"Strongly disagree";"Fairly Conservative";3
-"109";"Yes";"Conservative";"Often";"Neither agree nor disagree";"Sometimes";"Often";"Agree";"Liberal";4
-"110";"Yes";"Conservative";"Sometimes";"Somewhat agree";"Sometimes";"Rarely";"Strongly agree";"Liberal";4
-"111";"Yes";"Liberal";"Sometimes";"Neither agree nor disagree";"Never";"Rarely";"Agree";"Center";5
-"112";"Yes";"Fairly Conservative";"Always";"Neither agree nor disagree";"Always";"Always";"Agree";"Conservative";4
-"113";"Yes";"Extremely Conservative";"Often";"Somewhat agree";"Rarely";"Often";"Agree";"Extremely Conservative";4
-"114";"No";"Liberal";"Often";"Neither agree nor disagree";"Rarely";"Often";"Agree";"Center";4
-"115";"Yes";"Fairly Conservative";"Always";"Neither agree nor disagree";"Sometimes";"Often";"Strongly agree";"Center";4
-"116";"Yes";"Extremely Conservative";"Often";"Disagree";"Often";"Often";"Strongly agree";"Fairly Conservative";5
-"117";"Yes";"Extremely Liberal";"Always";"Strongly agree";"Always";"Always";"Strongly agree";"Extremely Liberal";5
-"118";"Yes";"Conservative";"Sometimes";"Somewhat agree";"Rarely";"Sometimes";"Somewhat agree";"Conservative";3
-"119";"Yes";"Extremely Conservative";"Sometimes";"Neither agree nor disagree";"Sometimes";"Sometimes";"Agree";"Fairly Conservative";4
-"120";"Yes";"Extremely Conservative";"Often";"Agree";"Often";"Often";"Somewhat agree";"Extremely Conservative";3
-"121";"Yes";"Extremely Conservative";"Always";"Strongly agree";"Always";"Always";"Strongly agree";"Extremely Conservative";5
-"122";"Yes";"Conservative";"Often";"Neither agree nor disagree";"Rarely";"Often";"Strongly agree";"Center";3
-"123";"Yes";"Extremely Conservative";"Often";"Somewhat agree";"Often";"Often";"Strongly agree";"Extremely Conservative";5
-"124";"Yes";"Conservative";"Rarely";"Agree";"Rarely";"Rarely";"Agree";"Fairly Conservative";2
-"125";"Yes";"Extremely Conservative";"Often";"Strongly agree";"Often";"Often";"Somewhat agree";"Center";4
-"126";"Yes";"Extremely Conservative";"Sometimes";"Agree";"Rarely";"Sometimes";"Agree";"Fairly Conservative";4
-"127";"Yes";"Extremely Liberal";"Often";"Agree";"Often";"Often";"Somewhat agree";"Extremely Liberal";3
-"128";"Yes";"Fairly Liberal";"Always";"Neither agree nor disagree";"Often";"Always";"Somewhat agree";"Liberal";5
-"129";"Yes";"Center";"Rarely";"Somewhat agree";"Always";"Always";"Agree";"Conservative";4
-"130";"Yes";"Fairly Liberal";"Often";"Somewhat disagree";"Sometimes";"Sometimes";"Strongly agree";"Fairly Liberal";5
-"131";"Yes";"Fairly Liberal";"Always";"Somewhat disagree";"Often";"Often";"Agree";"Fairly Liberal";4
-"132";"Yes";"Fairly Conservative";"Rarely";"Strongly agree";"Never";"Rarely";"Somewhat agree";"Center";4
-"133";"Yes";"Conservative";"Often";"Agree";"Often";"Often";"Agree";"Conservative";2
-"134";"Yes";"Conservative";"Sometimes";"Somewhat agree";"Rarely";"Often";"Somewhat disagree";"Liberal";3
-"135";"Yes";"Fairly Liberal";"Always";"Somewhat agree";"Often";"Always";"Somewhat agree";"Liberal";3
-"136";"Yes";"Fairly Conservative";"Often";"Somewhat agree";"Sometimes";"Sometimes";"Neither agree nor disagree";"Liberal";2
-"137";"No";"Center";"Sometimes";"Neither agree nor disagree";"Rarely";"Rarely";"Neither agree nor disagree";"Center";4
-"138";"Yes";"Center";"Sometimes";"Neither agree nor disagree";"Rarely";"Sometimes";"Strongly agree";"Conservative";4
-"139";"Yes";"Center";"Rarely";"Neither agree nor disagree";"Rarely";"Rarely";"Neither agree nor disagree";"Center";3
-"140";"Yes";"Fairly Conservative";"Sometimes";"Somewhat agree";"Sometimes";"Sometimes";"Agree";"Fairly Conservative";4
-"141";"Yes";"Conservative";"Sometimes";"Strongly agree";"Often";"Often";"Strongly agree";"Conservative";4
-"142";"Yes";"Liberal";"Sometimes";"Somewhat agree";"Rarely";"Sometimes";"Agree";"Conservative";3
-"143";"Yes";"Conservative";"Sometimes";"Somewhat agree";"Never";"Sometimes";"Agree";"Center";4
-"144";"No";"Center";"Sometimes";"Neither agree nor disagree";"Sometimes";"Sometimes";"Strongly agree";"Center";4
-"145";"Yes";"Extremely Liberal";"Sometimes";"Neither agree nor disagree";"Rarely";"Often";"Agree";"Liberal";4
-"146";"Yes";"Fairly Liberal";"Always";"Agree";"Sometimes";"Sometimes";"Agree";"Liberal";5
-"147";"Yes";"Extremely Conservative";"Always";"Strongly agree";"Often";"Often";"Strongly agree";"Fairly Conservative";2
-"148";"No";"Extremely Liberal";"Always";"Neither agree nor disagree";"Sometimes";"Always";"Somewhat agree";"Center";4
-"149";"No";"Conservative";"Always";"Disagree";"Rarely";"Sometimes";"Strongly agree";"Conservative";5
-"150";"Yes";"Extremely Liberal";"Often";"Strongly agree";"Often";"Often";"Strongly agree";"Extremely Liberal";5
-"151";"Yes";"Fairly Liberal";"Often";"Neither agree nor disagree";"Sometimes";"Sometimes";"Agree";"Liberal";4
-"152";"Yes";"Fairly Liberal";"Sometimes";"Neither agree nor disagree";"Sometimes";"Often";"Agree";"Liberal";5
-"153";"Yes";"Extremely Conservative";"Sometimes";"Strongly agree";"Sometimes";"Often";"Strongly disagree";"Extremely Conservative";3
-"154";"Yes";"Fairly Conservative";"Sometimes";"Strongly agree";"Rarely";"Sometimes";"Agree";"Conservative";4
-"155";"Yes";"Fairly Conservative";"Sometimes";"Strongly agree";"Rarely";"Sometimes";"Neither agree nor disagree";"Center";3
-"156";"Yes";"Extremely Conservative";"Rarely";"Neither agree nor disagree";"Sometimes";"Sometimes";"Agree";"Fairly Conservative";5
-"157";"Yes";"Conservative";"Sometimes";"Somewhat agree";"Never";"Sometimes";"Agree";"Center";4
-"158";"Yes";"Fairly Liberal";"Often";"Agree";"Rarely";"Sometimes";"Agree";"Fairly Liberal";4
-"159";"Yes";"Extremely Conservative";"Always";"Strongly agree";"Always";"Always";"Strongly disagree";"Extremely Conservative";1
-"160";"Yes";"Conservative";"Often";"Neither agree nor disagree";"Rarely";"Sometimes";"Neither agree nor disagree";"Liberal";5
-"161";"Yes";"Extremely Conservative";"Sometimes";"Strongly agree";"Never";"Rarely";"Neither agree nor disagree";"Extremely Conservative";1
-"162";"Yes";"Liberal";"Sometimes";"Neither agree nor disagree";"Rarely";"Sometimes";"Agree";"Center";5
-"163";"Yes";"Extremely Conservative";"Always";"Somewhat disagree";"Often";"Always";"Strongly agree";"Extremely Conservative";5
-"164";"Yes";"Fairly Conservative";"Always";"Agree";"Rarely";"Sometimes";"Agree";"Conservative";4
-"165";"Yes";"Liberal";"Often";"Neither agree nor disagree";"Rarely";"Always";"Agree";"Liberal";3
-"166";"Yes";"Extremely Liberal";"Always";"Disagree";"Sometimes";"Often";"Strongly agree";"Center";5
-"167";"Yes";"Extremely Conservative";"Often";"Strongly agree";"Often";"Often";"Agree";"Fairly Conservative";5
-"168";"Yes";"Extremely Conservative";"Always";"Strongly disagree";"Always";"Always";"Strongly agree";"Extremely Conservative";5
-"169";"Yes";"Extremely Conservative";"Often";"Strongly disagree";"Sometimes";"Always";"Agree";"Conservative";3
-"170";"Yes";"Fairly Conservative";"Always";"Strongly agree";"Always";"Always";"Strongly agree";"Extremely Conservative";5
-"171";"Yes";"Extremely Liberal";"Sometimes";"Strongly disagree";"Rarely";"Sometimes";"Strongly agree";"Extremely Liberal";5
-"172";"Yes";"Center";"Always";"Strongly agree";"Never";"Always";"Agree";"Fairly Liberal";5
-"173";"Yes";"Conservative";"Rarely";"Somewhat agree";"Never";"Rarely";"Agree";"Center";4
-"174";"Yes";"Conservative";"Always";"Somewhat disagree";"Always";"Always";"Agree";"Conservative";2
-"175";"Yes";"Extremely Liberal";"Sometimes";"Neither agree nor disagree";"Sometimes";"Sometimes";"Neither agree nor disagree";"Extremely Liberal";2
-"176";"No";"Conservative";"Often";"Agree";"Rarely";"Always";"Strongly agree";"Conservative";5
-"177";"Yes";"Extremely Conservative";"Sometimes";"Neither agree nor disagree";"Sometimes";"Sometimes";"Neither agree nor disagree";"Extremely Conservative";3
-"178";"No";"Fairly Conservative";"Sometimes";"Somewhat agree";"Never";"Rarely";"Agree";"Conservative";5
-"179";"Yes";"Extremely Conservative";"Always";"Agree";"Often";"Always";"Somewhat agree";"Extremely Conservative";3
-"180";"Yes";"Extremely Liberal";"Always";"Neither agree nor disagree";"Sometimes";"Sometimes";"Strongly agree";"Center";5
-"181";"No";"Conservative";"Sometimes";"Somewhat agree";"Sometimes";"Sometimes";"Agree";"Conservative";3
-"182";"Yes";"Conservative";"Rarely";"Somewhat agree";"Rarely";"Sometimes";"Agree";"Liberal";3
-"183";"No";"Conservative";"Sometimes";"Strongly agree";"Sometimes";"Sometimes";"Strongly disagree";"Extremely Liberal";1
-"184";"No";"Conservative";"Sometimes";"Somewhat agree";"Sometimes";"Sometimes";"Agree";"Fairly Conservative";2
-"185";"Yes";"Fairly Conservative";"Rarely";"Neither agree nor disagree";"Rarely";"Rarely";"Agree";"Conservative";3
-"186";"No";"Center";"Rarely";"Somewhat agree";"Sometimes";"Rarely";"Somewhat disagree";"Center";3
-"187";"No";"Center";"Rarely";"Neither agree nor disagree";"Rarely";"Rarely";"Strongly agree";"Liberal";5
-"188";"Yes";"Center";"Rarely";"Somewhat disagree";"Rarely";"Rarely";"Agree";"Center";4
-"189";"Yes";"Extremely Liberal";"Always";"Somewhat disagree";"Sometimes";"Always";"Neither agree nor disagree";"Center";2
-"190";"Yes";"Extremely Liberal";"Rarely";"Somewhat disagree";"Sometimes";"Rarely";"Strongly agree";"Fairly Liberal";5
-"191";"Yes";"Conservative";"Sometimes";"Somewhat agree";"Sometimes";"Sometimes";"Neither agree nor disagree";"Liberal";2
-"192";"Yes";"Fairly Conservative";"Sometimes";"Somewhat agree";"Sometimes";"Often";"Agree";"Extremely Conservative";3
-"193";"No";"Center";"Rarely";"Neither agree nor disagree";"Rarely";"Rarely";"Neither agree nor disagree";"Center";3
-"194";"No";"Conservative";"Sometimes";"Somewhat agree";"Sometimes";"Often";"Strongly agree";"Conservative";4
-"195";"No";"Conservative";"Sometimes";"Neither agree nor disagree";"Never";"Never";"Agree";NA;4
-"196";"Yes";"Fairly Conservative";"Sometimes";"Neither agree nor disagree";"Sometimes";"Often";"Neither agree nor disagree";"Fairly Conservative";3
-"197";"No";"Extremely Conservative";"Never";"Strongly agree";"Never";"Never";"Somewhat agree";"Extremely Conservative";4
-"198";"Yes";"Extremely Liberal";"Rarely";"Neither agree nor disagree";"Rarely";"Sometimes";"Agree";"Extremely Liberal";4
-"199";"Yes";"Fairly Conservative";"Sometimes";"Strongly agree";"Sometimes";"Sometimes";"Somewhat agree";"Fairly Conservative";3
-"200";"Yes";"Fairly Conservative";"Sometimes";"Somewhat disagree";"Rarely";"Sometimes";"Agree";"Center";3
-"201";"No";"Liberal";"Rarely";"Somewhat agree";"Never";"Rarely";"Agree";"Fairly Liberal";4
-"202";"No";"Liberal";"Often";"Disagree";"Sometimes";"Always";"Agree";"Center";3
-"203";"Yes";"Extremely Conservative";"Sometimes";"Neither agree nor disagree";"Never";"Sometimes";"Neither agree nor disagree";"Extremely Conservative";3
-"204";"Yes";"Extremely Conservative";"Sometimes";"Strongly agree";"Sometimes";"Sometimes";"Somewhat agree";"Center";4
-"205";"No";"Center";"Sometimes";"Neither agree nor disagree";"Sometimes";"Sometimes";"Agree";"Center";4
-"206";"Yes";"Extremely Conservative";"Sometimes";"Strongly agree";"Sometimes";"Sometimes";"Disagree";"Extremely Liberal";1
-"207";"Yes";"Extremely Liberal";"Sometimes";"Somewhat disagree";"Often";"Sometimes";"Agree";"Liberal";4
-"208";"Yes";"Center";"Rarely";"Disagree";"Never";"Rarely";"Agree";"Center";4
-"209";"No";"Conservative";"Sometimes";"Somewhat agree";"Never";"Often";"Somewhat agree";"Liberal";3
-"210";"No";"Center";"Rarely";"Somewhat agree";"Rarely";"Rarely";"Neither agree nor disagree";"Center";3
-"211";"Yes";"Conservative";"Rarely";"Somewhat agree";"Sometimes";"Often";"Somewhat agree";"Conservative";3
-"212";"Yes";"Extremely Conservative";"Sometimes";"Strongly agree";"Rarely";"Sometimes";"Strongly disagree";"Extremely Liberal";1
-"213";"Yes";"Fairly Conservative";"Sometimes";"Agree";"Rarely";"Sometimes";"Agree";"Conservative";2
-"214";"No";"Conservative";"Sometimes";"Disagree";"Sometimes";"Sometimes";"Somewhat agree";"Conservative";4
-"215";"Yes";"Conservative";"Sometimes";"Neither agree nor disagree";"Sometimes";"Sometimes";"Agree";"Conservative";3
-"216";"No";"Center";"Often";"Neither agree nor disagree";"Never";"Often";"Somewhat agree";"Center";4
-"217";"Yes";"Liberal";"Often";"Neither agree nor disagree";"Rarely";"Sometimes";"Neither agree nor disagree";"Center";3
-"218";"Yes";"Extremely Conservative";"Always";"Strongly agree";"Often";"Often";"Agree";"Center";2
-"219";"Yes";"Extremely Liberal";"Never";"Neither agree nor disagree";"Never";"Never";"Somewhat agree";"Liberal";3
-"220";"No";"Center";"Never";"Neither agree nor disagree";"Never";"Always";"Agree";"Center";4
-"221";"No";"Liberal";"Sometimes";"Neither agree nor disagree";"Sometimes";"Sometimes";"Agree";"Liberal";5
-"222";"Yes";"Extremely Conservative";"Often";"Somewhat agree";"Often";"Often";"Strongly agree";"Fairly Conservative";3
-"223";"Yes";"Conservative";"Sometimes";"Neither agree nor disagree";"Often";"Often";"Strongly agree";"Conservative";4
-"224";"Yes";"Conservative";"Sometimes";"Neither agree nor disagree";"Sometimes";"Sometimes";"Agree";"Conservative";4
-"225";"No";"Conservative";"Never";"Neither agree nor disagree";"Rarely";"Rarely";"Somewhat agree";"Liberal";3
-"226";"Yes";"Conservative";"Rarely";"Neither agree nor disagree";"Often";"Rarely";"Somewhat agree";"Conservative";4
-"227";"No";"Extremely Conservative";"Always";"Somewhat disagree";"Always";"Always";"Strongly agree";"Extremely Conservative";4
-"228";"No";"Conservative";"Sometimes";"Somewhat disagree";"Rarely";"Sometimes";"Neither agree nor disagree";"Center";2
-"229";"No";"Fairly Conservative";"Rarely";"Neither agree nor disagree";"Never";"Sometimes";"Somewhat agree";"Conservative";4
-"230";"No";"Extremely Liberal";"Rarely";"Neither agree nor disagree";"Rarely";"Never";"Agree";"Extremely Liberal";3
-"231";"No";"Fairly Liberal";"Sometimes";"Agree";"Sometimes";"Often";"Strongly agree";"Fairly Liberal";4
-"232";"Yes";"Conservative";"Sometimes";"Agree";"Rarely";"Rarely";"Agree";"Conservative";2
-"233";"Yes";"Extremely Liberal";"Often";"Disagree";"Sometimes";"Often";"Strongly agree";"Center";5
-"234";"No";"Fairly Liberal";"Rarely";"Agree";"Rarely";"Rarely";"Agree";"Center";5
-"235";"No";"Liberal";"Sometimes";"Somewhat agree";"Sometimes";"Sometimes";"Neither agree nor disagree";"Conservative";3
-"236";"No";"Conservative";"Rarely";"Neither agree nor disagree";"Rarely";"Never";"Somewhat agree";"Conservative";4
-"237";"No";"Conservative";"Sometimes";"Neither agree nor disagree";"Sometimes";"Rarely";"Neither agree nor disagree";"Conservative";3
-"238";"Yes";"Extremely Conservative";"Rarely";"Neither agree nor disagree";"Sometimes";"Rarely";"Somewhat agree";"Center";2
-"239";"No";"Center";"Rarely";"Neither agree nor disagree";"Rarely";"Rarely";"Agree";"Center";3
-"240";"Yes";"Fairly Conservative";"Sometimes";"Somewhat disagree";"Never";"Sometimes";"Somewhat agree";"Center";3
-"241";"No";"Center";"Sometimes";"Neither agree nor disagree";"Rarely";"Sometimes";"Agree";"Center";4
-"242";"Yes";"Center";"Rarely";"Neither agree nor disagree";"Sometimes";"Rarely";"Neither agree nor disagree";"Center";3
-"243";"No";"Extremely Liberal";"Rarely";"Neither agree nor disagree";"Never";"Rarely";"Strongly disagree";"Extremely Liberal";3
-"244";"No";"Center";"Rarely";"Neither agree nor disagree";"Rarely";"Rarely";"Neither agree nor disagree";"Center";3
-"245";"Yes";"Liberal";"Often";"Strongly disagree";"Sometimes";"Sometimes";"Agree";"Center";4
-"246";"Yes";"Liberal";"Always";"Neither agree nor disagree";"Often";"Often";"Agree";"Center";3
-"247";"Yes";"Fairly Conservative";"Rarely";"Somewhat agree";"Rarely";"Sometimes";"Neither agree nor disagree";"Conservative";4
-"248";"No";NA;"Sometimes";"Neither agree nor disagree";"Rarely";"Rarely";"Somewhat agree";"Liberal";3
-"249";"No";"Center";"Never";"Neither agree nor disagree";"Rarely";"Never";"Neither agree nor disagree";"Center";3
-"250";"Yes";"Extremely Liberal";"Sometimes";"Neither agree nor disagree";"Rarely";"Rarely";"Agree";"Center";5
-"251";"No";"Fairly Liberal";"Sometimes";"Disagree";"Rarely";"Sometimes";"Somewhat agree";"Liberal";4
-"252";"No";"Center";"Sometimes";"Agree";"Sometimes";"Rarely";"Neither agree nor disagree";"Conservative";3
-"253";"Yes";"Liberal";"Often";"Agree";"Sometimes";"Sometimes";"Agree";"Conservative";4
-"254";"No";"Conservative";"Sometimes";"Neither agree nor disagree";"Often";"Sometimes";"Agree";"Liberal";3
-"255";"Yes";"Extremely Liberal";"Often";"Somewhat disagree";"Always";"Always";"Strongly agree";"Extremely Liberal";5
-"256";"Yes";"Extremely Conservative";"Sometimes";"Neither agree nor disagree";"Sometimes";"Sometimes";"Neither agree nor disagree";"Extremely Conservative";1
-"257";"No";"Center";"Rarely";"Neither agree nor disagree";"Sometimes";"Sometimes";"Neither agree nor disagree";"Center";3
-"258";"Yes";"Conservative";"Sometimes";"Agree";"Sometimes";"Sometimes";"Agree";"Conservative";2
-"259";"Yes";"Extremely Liberal";"Often";"Agree";"Rarely";"Often";"Somewhat agree";"Extremely Liberal";3
-"260";"No";"Extremely Liberal";"Never";"Agree";"Sometimes";"Never";"Agree";"Liberal";4
-"261";"No";"Liberal";"Never";"Somewhat agree";"Never";"Rarely";"Somewhat agree";"Conservative";2
-"262";"No";"Extremely Conservative";"Sometimes";"Neither agree nor disagree";"Sometimes";"Sometimes";"Somewhat agree";"Extremely Conservative";4
-"263";"Yes";"Center";"Often";"Neither agree nor disagree";"Often";"Often";"Neither agree nor disagree";"Center";3
-"264";"Yes";"Conservative";"Always";"Strongly agree";"Often";"Often";"Strongly agree";"Conservative";2
-"265";"Yes";"Extremely Conservative";"Never";"Strongly agree";"Never";"Never";"Agree";"Center";3
-"266";"Yes";"Extremely Conservative";"Rarely";"Agree";"Never";"Sometimes";"Neither agree nor disagree";"Center";4
-"267";"Yes";"Center";"Often";"Agree";"Often";"Sometimes";"Strongly agree";"Fairly Conservative";5
-"268";"Yes";"Extremely Conservative";"Rarely";"Strongly agree";"Sometimes";"Sometimes";"Somewhat agree";"Center";4
-"269";"Yes";"Center";"Often";"Neither agree nor disagree";"Sometimes";"Often";"Strongly agree";"Center";4
-"270";"Yes";"Conservative";"Sometimes";"Disagree";"Never";"Never";"Strongly agree";"Center";4
-"271";"Yes";"Extremely Liberal";"Always";"Disagree";"Often";"Always";"Strongly agree";"Extremely Liberal";5
-"272";"Yes";"Center";"Rarely";"Neither agree nor disagree";"Rarely";"Rarely";"Neither agree nor disagree";"Center";3
-"273";"Yes";"Conservative";"Always";"Neither agree nor disagree";"Sometimes";"Often";"Somewhat agree";"Conservative";3
-"274";"Yes";"Extremely Liberal";"Always";"Strongly disagree";"Often";"Always";"Strongly agree";"Extremely Liberal";5
-"275";"Yes";"Extremely Liberal";"Often";"Disagree";"Often";"Often";"Strongly agree";"Extremely Liberal";4
-"276";"Yes";"Liberal";"Sometimes";"Disagree";"Rarely";"Often";"Strongly agree";"Liberal";5
-"277";"No";"Fairly Conservative";"Rarely";"Somewhat agree";"Never";"Rarely";"Somewhat agree";"Center";4
-"278";NA;NA;"Rarely";"Agree";"Rarely";"Sometimes";NA;NA;NA
-"279";"Yes";"Conservative";"Sometimes";"Agree";"Rarely";"Sometimes";"Agree";"Conservative";3
-"280";"Yes";"Extremely Liberal";"Often";"Somewhat agree";"Often";"Often";"Agree";"Extremely Liberal";4
-"281";"Yes";"Extremely Conservative";"Often";"Strongly agree";"Always";"Always";"Strongly agree";"Fairly Conservative";2
-"282";"Yes";"Center";"Often";"Disagree";"Rarely";"Sometimes";"Strongly agree";"Center";5
-"283";"Yes";"Fairly Conservative";"Often";"Agree";"Often";"Often";"Strongly agree";"Fairly Conservative";5
-"284";"Yes";"Extremely Liberal";"Sometimes";"Strongly agree";"Often";"Always";"Strongly agree";"Extremely Liberal";5
-"285";"No";"Center";"Rarely";"Agree";"Never";"Rarely";"Neither agree nor disagree";"Center";3
-"286";"Yes";"Liberal";"Often";"Disagree";"Sometimes";"Often";"Neither agree nor disagree";"Liberal";3
-"287";"Yes";"Conservative";"Sometimes";"Somewhat agree";"Rarely";"Sometimes";"Somewhat disagree";"Center";2
-"288";"Yes";"Conservative";"Always";"Somewhat disagree";"Sometimes";"Always";"Agree";"Center";4
-"289";"Yes";"Extremely Conservative";"Always";"Strongly disagree";"Sometimes";"Always";"Strongly agree";"Extremely Conservative";5
-"290";"Yes";"Extremely Conservative";"Often";"Strongly agree";"Often";"Sometimes";"Strongly agree";"Center";4
-"291";"Yes";"Conservative";"Rarely";"Somewhat disagree";"Rarely";"Sometimes";"Somewhat agree";"Conservative";3
-"292";"Yes";"Extremely Liberal";"Always";"Agree";"Always";"Always";"Strongly agree";"Extremely Liberal";4
-"293";"Yes";"Extremely Liberal";"Always";"Neither agree nor disagree";"Always";"Always";"Strongly agree";"Extremely Liberal";5
-"294";"Yes";"Extremely Conservative";"Often";"Agree";"Often";"Often";"Agree";"Center";4
-"295";"Yes";"Center";"Always";"Disagree";"Sometimes";"Often";"Somewhat agree";"Liberal";4
-"296";"No";"Extremely Conservative";"Sometimes";"Somewhat disagree";"Sometimes";"Sometimes";"Agree";"Center";5
-"297";"Yes";"Conservative";"Often";"Neither agree nor disagree";"Sometimes";"Often";"Agree";"Center";4
-"298";"Yes";"Extremely Conservative";"Always";"Disagree";"Always";"Always";"Strongly agree";"Extremely Conservative";5
-"299";"No";"Center";"Sometimes";"Neither agree nor disagree";"Rarely";"Rarely";"Agree";"Center";3
-"300";"Yes";"Fairly Conservative";"Always";"Strongly agree";"Often";"Always";"Strongly agree";"Fairly Conservative";1
-"301";"Yes";"Fairly Conservative";"Often";"Agree";"Sometimes";"Often";"Neither agree nor disagree";"Center";4
-"302";"Yes";"Liberal";"Always";"Somewhat disagree";"Often";"Always";"Strongly agree";"Center";4
-"303";"No";"Fairly Liberal";"Rarely";"Neither agree nor disagree";"Rarely";"Never";"Somewhat agree";"Center";3
+"Q11","Q21_1","Q26","Q28","Q32","Q34","Q40","Q43_1","Q44"
+"Yes","Fairly Liberal","Often","Disagree","Sometimes","Often","Strongly agree","Liberal",5
+"No","Extremely Liberal","Often","Somewhat disagree","Often","Often","Somewhat agree","Fairly Liberal",3
+"Yes","Center","Sometimes","Somewhat agree","Sometimes","Sometimes","Neither agree nor disagree","Center",3
+"Yes","Conservative","Sometimes","Agree","Never","Rarely","Strongly agree","Liberal",3
+"Yes","Conservative","Rarely","Neither agree nor disagree","Always","Sometimes","Somewhat agree","Conservative",4
+"Yes","Center","Never","Neither agree nor disagree","Rarely","Never","Neither agree nor disagree","Center",3
+"No","Center","Sometimes","Somewhat disagree","Sometimes","Often","Strongly agree","Center",5
+"Yes","Fairly Liberal","Always","Agree","Often","Never","Agree","Liberal",1
+"No","Fairly Conservative","Rarely","Neither agree nor disagree","Sometimes","Sometimes","Neither agree nor disagree","Liberal",3
+"Yes","Center","Often","Strongly agree","Never","Often","Strongly agree","Center",4
+"Yes","Extremely Liberal","Rarely","Neither agree nor disagree","Rarely","Sometimes","Strongly agree","Liberal",5
+"Yes","Extremely Conservative","Rarely","Strongly agree","Rarely","Rarely","Agree","Extremely Conservative",4
+"Yes","Liberal","Sometimes","Neither agree nor disagree","Rarely","Sometimes","Agree","Liberal",5
+"Yes","Extremely Conservative","Sometimes","Strongly agree","Never","Sometimes","Somewhat disagree","Fairly Liberal",2
+"Yes","Center","Often","Neither agree nor disagree","Sometimes","Often","Agree","Center",4
+"No","Fairly Conservative","Sometimes","Neither agree nor disagree","Rarely","Rarely","Agree","Center",3
+"No","Liberal","Often","Neither agree nor disagree","Sometimes","Sometimes","Agree","Center",4
+"Yes","Liberal","Often","Somewhat disagree","Sometimes","Often","Agree","Liberal",4
+"Yes","Liberal","Often","Somewhat agree","Rarely","Often","Agree","Liberal",4
+"No","Center","Rarely","Somewhat agree","Rarely","Rarely","Agree","Center",3
+"No","Fairly Liberal","Sometimes","Neither agree nor disagree","Rarely","Sometimes","Agree","Fairly Liberal",5
+"Yes","Fairly Conservative","Always","Strongly agree","Often","Always","Strongly agree","Fairly Conservative",1
+"Yes","Center","Rarely","Somewhat disagree","Rarely","Rarely","Agree","Center",3
+"No","Liberal","Often","Somewhat agree","Often","Often","Somewhat agree","Liberal",3
+"No","Liberal","Often","Somewhat disagree","Often","Always","Agree","Fairly Liberal",1
+"Yes","Center","Often","Somewhat agree","Sometimes","Sometimes","Somewhat agree","Center",4
+"Yes","Fairly Liberal","Rarely","Neither agree nor disagree","Sometimes","Sometimes","Agree","Liberal",3
+"Yes","Extremely Liberal","Rarely","Somewhat agree","Sometimes","Rarely","Somewhat disagree","Liberal",4
+"Yes","Center","Sometimes","Agree","Rarely","Sometimes","Agree","Liberal",5
+"No","Fairly Conservative","Often","Somewhat agree","Sometimes","Sometimes","Somewhat agree","Fairly Conservative",4
+"Yes","Extremely Conservative","Often","Agree","Rarely","Often","Neither agree nor disagree","Extremely Conservative",4
+"Yes","Conservative","Rarely","Agree","Sometimes","Rarely","Agree","Fairly Conservative",3
+"Yes","Extremely Conservative","Often","Agree","Often","Often","Agree","Extremely Conservative",2
+"Yes","Center","Sometimes","Somewhat agree","Sometimes","Often","Somewhat agree","Center",3
+"Yes","Fairly Liberal","Often","Neither agree nor disagree","Often","Often","Agree","Fairly Liberal",4
+"No","Extremely Conservative","Sometimes","Strongly agree","Rarely","Rarely","Somewhat agree","Extremely Conservative",3
+"No","Center","Rarely","Somewhat disagree","Never","Sometimes","Strongly agree","Extremely Conservative",4
+"No","Liberal","Never","Disagree","Never","Never","Neither agree nor disagree","Liberal",3
+"Yes","Center","Often","Neither agree nor disagree","Sometimes","Often","Strongly agree","Center",5
+"Yes","Center","Never","Neither agree nor disagree","Never","Never","Neither agree nor disagree","Center",3
+"Yes","Center","Always","Somewhat agree","Always","Always","Strongly agree","Center",5
+"Yes","Center","Often","Neither agree nor disagree","Sometimes","Always","Neither agree nor disagree","Center",3
+"No","Fairly Conservative","Sometimes","Somewhat agree","Often","Rarely","Agree","Fairly Liberal",3
+"Yes","Center","Sometimes","Neither agree nor disagree","Rarely","Sometimes","Somewhat agree","Center",4
+"Yes","Conservative","Sometimes","Somewhat agree","Sometimes","Sometimes","Somewhat agree","Conservative",3
+"Yes","Extremely Liberal","Rarely","Neither agree nor disagree","Rarely","Sometimes","Strongly agree","Fairly Liberal",4
+"No","Center","Sometimes","Neither agree nor disagree","Rarely","Sometimes","Somewhat agree","Center",3
+"No","Conservative","Rarely","Somewhat agree","Never","Rarely","Somewhat agree","Conservative",3
+"No","Extremely Liberal","Rarely","Neither agree nor disagree","Rarely","Rarely","Neither agree nor disagree","Center",3
+"Yes","Fairly Conservative","Often","Agree","Often","Often","Agree","Fairly Conservative",2
+"Yes","Fairly Liberal","Often","Somewhat agree","Sometimes","Often","Somewhat disagree","Liberal",1
+"No","Conservative","Always","Neither agree nor disagree","Always","Always","Strongly agree","Extremely Conservative",4
+"No","Center","Sometimes","Neither agree nor disagree","Never","Sometimes","Agree","Fairly Liberal",4
+"Yes","Center","Sometimes","Agree","Sometimes","Often","Agree","Center",4
+"Yes","Fairly Liberal","Sometimes","Neither agree nor disagree","Sometimes","Often","Agree","Fairly Liberal",4
+"No","Center","Sometimes","Neither agree nor disagree","Rarely","Rarely","Neither agree nor disagree","Center",3
+"No","Center","Sometimes","Somewhat agree","Sometimes","Sometimes","Neither agree nor disagree","Center",5
+"Yes","Center","Rarely","Neither agree nor disagree","Rarely","Never","Agree","Center",3
+"Yes","Conservative","Often","Strongly agree","Always","Always","Strongly agree","Fairly Conservative",1
+"Yes","Fairly Liberal","Sometimes","Neither agree nor disagree","Rarely","Sometimes","Agree","Center",1
+"No","Center","Sometimes","Neither agree nor disagree","Never","Sometimes","Neither agree nor disagree","Liberal",3
+"Yes","Fairly Conservative","Always","Neither agree nor disagree","Rarely","Often","Somewhat agree","Conservative",3
+"Yes","Conservative","Often","Somewhat agree","Often","Often","Somewhat agree","Fairly Conservative",2
+"Yes","Center","Sometimes","Neither agree nor disagree","Sometimes","Sometimes","Neither agree nor disagree","Center",3
+"No","Fairly Conservative","Often","Agree","Sometimes","Often","Agree","Fairly Conservative",2
+"Yes","Fairly Conservative","Often","Disagree","Often","Always","Strongly agree","Liberal",5
+"Yes","Extremely Liberal","Sometimes","Neither agree nor disagree","Often","Often","Neither agree nor disagree","Center",3
+"Yes","Fairly Liberal","Sometimes","Somewhat disagree","Sometimes","Often","Strongly agree","Center",5
+"Yes","Extremely Liberal","Sometimes","Agree","Often","Sometimes","Strongly agree","Fairly Liberal",2
+"No","Center","Never","Neither agree nor disagree","Rarely","Never","Neither agree nor disagree","Center",3
+"Yes","Center","Sometimes","Neither agree nor disagree","Rarely","Often","Strongly agree","Center",5
+"Yes","Center","Often","Somewhat agree","Sometimes","Often","Agree","Conservative",4
+"No","Conservative","Sometimes","Neither agree nor disagree","Sometimes","Sometimes","Agree","Center",4
+"No","Center","Rarely","Neither agree nor disagree","Rarely","Rarely","Neither agree nor disagree","Center",4
+"No","Center","Never","Neither agree nor disagree","Never","Never","Somewhat agree","Center",3
+"No","Liberal","Rarely","Agree","Rarely","Rarely","Strongly agree","Liberal",1
+"Yes","Conservative","Often","Somewhat agree","Sometimes","Often","Agree","Conservative",3
+"Yes","Fairly Conservative","Often","Disagree","Rarely","Often","Strongly agree","Center",4
+"No","Conservative","Often","Somewhat agree","Often","Sometimes","Somewhat disagree","Conservative",3
+"Yes","Extremely Conservative","Always","Somewhat disagree","Always","Always","Strongly agree","Center",5
+"Yes","Extremely Conservative","Sometimes","Strongly agree","Sometimes","Sometimes","Agree","Conservative",4
+"No","Fairly Conservative","Sometimes","Somewhat agree","Sometimes","Often","Agree","Fairly Conservative",4
+"No","Center","Never","Neither agree nor disagree","Rarely","Never","Strongly agree","Center",5
+"No","Extremely Conservative","Often","Somewhat agree","Rarely","Sometimes","Somewhat disagree","Liberal",3
+"Yes","Conservative","Sometimes","Somewhat agree","Sometimes","Sometimes","Somewhat agree","Conservative",2
+"No","Liberal","Never","Strongly disagree","Never","Never","Strongly agree","Fairly Liberal",5
+"Yes","Conservative","Sometimes","Somewhat agree","Rarely","Rarely","Agree","Center",3
+"Yes","Extremely Conservative","Often","Somewhat disagree","Always","Often","Agree","Extremely Conservative",3
+"Yes","Conservative","Sometimes","Somewhat agree","Sometimes","Sometimes","Somewhat agree","Conservative",4
+"Yes","Liberal","Sometimes","Somewhat agree","Sometimes","Sometimes","Neither agree nor disagree","Liberal",4
+"No","Conservative","Sometimes","Agree","Sometimes","Rarely","Strongly agree","Liberal",2
+"Yes","Conservative","Sometimes","Neither agree nor disagree","Rarely","Never","Agree","Conservative",4
+"Yes","Conservative","Sometimes","Agree","Rarely","Sometimes","Neither agree nor disagree","Conservative",3
+"Yes","Conservative","Sometimes","Somewhat agree","Rarely","Rarely","Agree","Conservative",4
+"Yes","Fairly Conservative","Sometimes","Agree","Sometimes","Sometimes","Agree","Fairly Conservative",3
+"No","Center","Rarely","Somewhat agree","Never","Never","Neither agree nor disagree","Liberal",2
+"No","Fairly Conservative","Sometimes","Strongly agree","Rarely","Sometimes","Agree","Extremely Liberal",3
+"Yes","Conservative","Rarely","Somewhat disagree","Never","Sometimes","Agree","Fairly Conservative",4
+"Yes","Extremely Conservative","Sometimes","Strongly agree","Rarely","Sometimes","Disagree","Fairly Liberal",2
+"Yes","Extremely Conservative","Often","Agree","Always","Often","Agree","Extremely Conservative",4
+"No","Fairly Conservative","Often","Agree","Sometimes","Often","Somewhat agree","Center",4
+"Yes","Extremely Liberal","Often","Disagree","Often","Often","Strongly agree","Center",5
+"Yes","Fairly Conservative","Sometimes","Strongly agree","Never","Often","Agree","Fairly Conservative",5
+"Yes","Extremely Conservative","Often","Disagree","Sometimes","Rarely","Somewhat agree","Center",2
+"Yes","Center","Rarely","Agree","Rarely","Rarely","Agree","Center",2
+"Yes","Fairly Liberal","Sometimes","Neither agree nor disagree","Sometimes","Often","Somewhat agree","Fairly Liberal",4
+"Yes","Fairly Conservative","Often","Strongly agree","Rarely","Often","Agree","Center",4
+"Yes","Fairly Conservative","Often","Agree","Sometimes","Often","Strongly disagree","Fairly Conservative",3
+"Yes","Conservative","Often","Neither agree nor disagree","Sometimes","Often","Agree","Liberal",4
+"Yes","Conservative","Sometimes","Somewhat agree","Sometimes","Rarely","Strongly agree","Liberal",4
+"Yes","Liberal","Sometimes","Neither agree nor disagree","Never","Rarely","Agree","Center",5
+"Yes","Fairly Conservative","Always","Neither agree nor disagree","Always","Always","Agree","Conservative",4
+"Yes","Extremely Conservative","Often","Somewhat agree","Rarely","Often","Agree","Extremely Conservative",4
+"No","Liberal","Often","Neither agree nor disagree","Rarely","Often","Agree","Center",4
+"Yes","Fairly Conservative","Always","Neither agree nor disagree","Sometimes","Often","Strongly agree","Center",4
+"Yes","Extremely Conservative","Often","Disagree","Often","Often","Strongly agree","Fairly Conservative",5
+"Yes","Extremely Liberal","Always","Strongly agree","Always","Always","Strongly agree","Extremely Liberal",5
+"Yes","Conservative","Sometimes","Somewhat agree","Rarely","Sometimes","Somewhat agree","Conservative",3
+"Yes","Extremely Conservative","Sometimes","Neither agree nor disagree","Sometimes","Sometimes","Agree","Fairly Conservative",4
+"Yes","Extremely Conservative","Often","Agree","Often","Often","Somewhat agree","Extremely Conservative",3
+"Yes","Extremely Conservative","Always","Strongly agree","Always","Always","Strongly agree","Extremely Conservative",5
+"Yes","Conservative","Often","Neither agree nor disagree","Rarely","Often","Strongly agree","Center",3
+"Yes","Extremely Conservative","Often","Somewhat agree","Often","Often","Strongly agree","Extremely Conservative",5
+"Yes","Conservative","Rarely","Agree","Rarely","Rarely","Agree","Fairly Conservative",2
+"Yes","Extremely Conservative","Often","Strongly agree","Often","Often","Somewhat agree","Center",4
+"Yes","Extremely Conservative","Sometimes","Agree","Rarely","Sometimes","Agree","Fairly Conservative",4
+"Yes","Extremely Liberal","Often","Agree","Often","Often","Somewhat agree","Extremely Liberal",3
+"Yes","Fairly Liberal","Always","Neither agree nor disagree","Often","Always","Somewhat agree","Liberal",5
+"Yes","Center","Rarely","Somewhat agree","Always","Always","Agree","Conservative",4
+"Yes","Fairly Liberal","Often","Somewhat disagree","Sometimes","Sometimes","Strongly agree","Fairly Liberal",5
+"Yes","Fairly Liberal","Always","Somewhat disagree","Often","Often","Agree","Fairly Liberal",4
+"Yes","Fairly Conservative","Rarely","Strongly agree","Never","Rarely","Somewhat agree","Center",4
+"Yes","Conservative","Often","Agree","Often","Often","Agree","Conservative",2
+"Yes","Conservative","Sometimes","Somewhat agree","Rarely","Often","Somewhat disagree","Liberal",3
+"Yes","Fairly Liberal","Always","Somewhat agree","Often","Always","Somewhat agree","Liberal",3
+"Yes","Fairly Conservative","Often","Somewhat agree","Sometimes","Sometimes","Neither agree nor disagree","Liberal",2
+"No","Center","Sometimes","Neither agree nor disagree","Rarely","Rarely","Neither agree nor disagree","Center",4
+"Yes","Center","Sometimes","Neither agree nor disagree","Rarely","Sometimes","Strongly agree","Conservative",4
+"Yes","Center","Rarely","Neither agree nor disagree","Rarely","Rarely","Neither agree nor disagree","Center",3
+"Yes","Fairly Conservative","Sometimes","Somewhat agree","Sometimes","Sometimes","Agree","Fairly Conservative",4
+"Yes","Conservative","Sometimes","Strongly agree","Often","Often","Strongly agree","Conservative",4
+"Yes","Liberal","Sometimes","Somewhat agree","Rarely","Sometimes","Agree","Conservative",3
+"Yes","Conservative","Sometimes","Somewhat agree","Never","Sometimes","Agree","Center",4
+"No","Center","Sometimes","Neither agree nor disagree","Sometimes","Sometimes","Strongly agree","Center",4
+"Yes","Extremely Liberal","Sometimes","Neither agree nor disagree","Rarely","Often","Agree","Liberal",4
+"Yes","Fairly Liberal","Always","Agree","Sometimes","Sometimes","Agree","Liberal",5
+"Yes","Extremely Conservative","Always","Strongly agree","Often","Often","Strongly agree","Fairly Conservative",2
+"No","Extremely Liberal","Always","Neither agree nor disagree","Sometimes","Always","Somewhat agree","Center",4
+"No","Conservative","Always","Disagree","Rarely","Sometimes","Strongly agree","Conservative",5
+"Yes","Extremely Liberal","Often","Strongly agree","Often","Often","Strongly agree","Extremely Liberal",5
+"Yes","Fairly Liberal","Often","Neither agree nor disagree","Sometimes","Sometimes","Agree","Liberal",4
+"Yes","Fairly Liberal","Sometimes","Neither agree nor disagree","Sometimes","Often","Agree","Liberal",5
+"Yes","Extremely Conservative","Sometimes","Strongly agree","Sometimes","Often","Strongly disagree","Extremely Conservative",3
+"Yes","Fairly Conservative","Sometimes","Strongly agree","Rarely","Sometimes","Agree","Conservative",4
+"Yes","Fairly Conservative","Sometimes","Strongly agree","Rarely","Sometimes","Neither agree nor disagree","Center",3
+"Yes","Extremely Conservative","Rarely","Neither agree nor disagree","Sometimes","Sometimes","Agree","Fairly Conservative",5
+"Yes","Conservative","Sometimes","Somewhat agree","Never","Sometimes","Agree","Center",4
+"Yes","Fairly Liberal","Often","Agree","Rarely","Sometimes","Agree","Fairly Liberal",4
+"Yes","Extremely Conservative","Always","Strongly agree","Always","Always","Strongly disagree","Extremely Conservative",1
+"Yes","Conservative","Often","Neither agree nor disagree","Rarely","Sometimes","Neither agree nor disagree","Liberal",5
+"Yes","Extremely Conservative","Sometimes","Strongly agree","Never","Rarely","Neither agree nor disagree","Extremely Conservative",1
+"Yes","Liberal","Sometimes","Neither agree nor disagree","Rarely","Sometimes","Agree","Center",5
+"Yes","Extremely Conservative","Always","Somewhat disagree","Often","Always","Strongly agree","Extremely Conservative",5
+"Yes","Fairly Conservative","Always","Agree","Rarely","Sometimes","Agree","Conservative",4
+"Yes","Liberal","Often","Neither agree nor disagree","Rarely","Always","Agree","Liberal",3
+"Yes","Extremely Liberal","Always","Disagree","Sometimes","Often","Strongly agree","Center",5
+"Yes","Extremely Conservative","Often","Strongly agree","Often","Often","Agree","Fairly Conservative",5
+"Yes","Extremely Conservative","Always","Strongly disagree","Always","Always","Strongly agree","Extremely Conservative",5
+"Yes","Extremely Conservative","Often","Strongly disagree","Sometimes","Always","Agree","Conservative",3
+"Yes","Fairly Conservative","Always","Strongly agree","Always","Always","Strongly agree","Extremely Conservative",5
+"Yes","Extremely Liberal","Sometimes","Strongly disagree","Rarely","Sometimes","Strongly agree","Extremely Liberal",5
+"Yes","Center","Always","Strongly agree","Never","Always","Agree","Fairly Liberal",5
+"Yes","Conservative","Rarely","Somewhat agree","Never","Rarely","Agree","Center",4
+"Yes","Conservative","Always","Somewhat disagree","Always","Always","Agree","Conservative",2
+"Yes","Extremely Liberal","Sometimes","Neither agree nor disagree","Sometimes","Sometimes","Neither agree nor disagree","Extremely Liberal",2
+"No","Conservative","Often","Agree","Rarely","Always","Strongly agree","Conservative",5
+"Yes","Extremely Conservative","Sometimes","Neither agree nor disagree","Sometimes","Sometimes","Neither agree nor disagree","Extremely Conservative",3
+"No","Fairly Conservative","Sometimes","Somewhat agree","Never","Rarely","Agree","Conservative",5
+"Yes","Extremely Conservative","Always","Agree","Often","Always","Somewhat agree","Extremely Conservative",3
+"Yes","Extremely Liberal","Always","Neither agree nor disagree","Sometimes","Sometimes","Strongly agree","Center",5
+"No","Conservative","Sometimes","Somewhat agree","Sometimes","Sometimes","Agree","Conservative",3
+"Yes","Conservative","Rarely","Somewhat agree","Rarely","Sometimes","Agree","Liberal",3
+"No","Conservative","Sometimes","Strongly agree","Sometimes","Sometimes","Strongly disagree","Extremely Liberal",1
+"No","Conservative","Sometimes","Somewhat agree","Sometimes","Sometimes","Agree","Fairly Conservative",2
+"Yes","Fairly Conservative","Rarely","Neither agree nor disagree","Rarely","Rarely","Agree","Conservative",3
+"No","Center","Rarely","Somewhat agree","Sometimes","Rarely","Somewhat disagree","Center",3
+"No","Center","Rarely","Neither agree nor disagree","Rarely","Rarely","Strongly agree","Liberal",5
+"Yes","Center","Rarely","Somewhat disagree","Rarely","Rarely","Agree","Center",4
+"Yes","Extremely Liberal","Always","Somewhat disagree","Sometimes","Always","Neither agree nor disagree","Center",2
+"Yes","Extremely Liberal","Rarely","Somewhat disagree","Sometimes","Rarely","Strongly agree","Fairly Liberal",5
+"Yes","Conservative","Sometimes","Somewhat agree","Sometimes","Sometimes","Neither agree nor disagree","Liberal",2
+"Yes","Fairly Conservative","Sometimes","Somewhat agree","Sometimes","Often","Agree","Extremely Conservative",3
+"No","Center","Rarely","Neither agree nor disagree","Rarely","Rarely","Neither agree nor disagree","Center",3
+"No","Conservative","Sometimes","Somewhat agree","Sometimes","Often","Strongly agree","Conservative",4
+"No","Conservative","Sometimes","Neither agree nor disagree","Never","Never","Agree",NA,4
+"Yes","Fairly Conservative","Sometimes","Neither agree nor disagree","Sometimes","Often","Neither agree nor disagree","Fairly Conservative",3
+"No","Extremely Conservative","Never","Strongly agree","Never","Never","Somewhat agree","Extremely Conservative",4
+"Yes","Extremely Liberal","Rarely","Neither agree nor disagree","Rarely","Sometimes","Agree","Extremely Liberal",4
+"Yes","Fairly Conservative","Sometimes","Strongly agree","Sometimes","Sometimes","Somewhat agree","Fairly Conservative",3
+"Yes","Fairly Conservative","Sometimes","Somewhat disagree","Rarely","Sometimes","Agree","Center",3
+"No","Liberal","Rarely","Somewhat agree","Never","Rarely","Agree","Fairly Liberal",4
+"No","Liberal","Often","Disagree","Sometimes","Always","Agree","Center",3
+"Yes","Extremely Conservative","Sometimes","Neither agree nor disagree","Never","Sometimes","Neither agree nor disagree","Extremely Conservative",3
+"Yes","Extremely Conservative","Sometimes","Strongly agree","Sometimes","Sometimes","Somewhat agree","Center",4
+"No","Center","Sometimes","Neither agree nor disagree","Sometimes","Sometimes","Agree","Center",4
+"Yes","Extremely Conservative","Sometimes","Strongly agree","Sometimes","Sometimes","Disagree","Extremely Liberal",1
+"Yes","Extremely Liberal","Sometimes","Somewhat disagree","Often","Sometimes","Agree","Liberal",4
+"Yes","Center","Rarely","Disagree","Never","Rarely","Agree","Center",4
+"No","Conservative","Sometimes","Somewhat agree","Never","Often","Somewhat agree","Liberal",3
+"No","Center","Rarely","Somewhat agree","Rarely","Rarely","Neither agree nor disagree","Center",3
+"Yes","Conservative","Rarely","Somewhat agree","Sometimes","Often","Somewhat agree","Conservative",3
+"Yes","Extremely Conservative","Sometimes","Strongly agree","Rarely","Sometimes","Strongly disagree","Extremely Liberal",1
+"Yes","Fairly Conservative","Sometimes","Agree","Rarely","Sometimes","Agree","Conservative",2
+"No","Conservative","Sometimes","Disagree","Sometimes","Sometimes","Somewhat agree","Conservative",4
+"Yes","Conservative","Sometimes","Neither agree nor disagree","Sometimes","Sometimes","Agree","Conservative",3
+"No","Center","Often","Neither agree nor disagree","Never","Often","Somewhat agree","Center",4
+"Yes","Liberal","Often","Neither agree nor disagree","Rarely","Sometimes","Neither agree nor disagree","Center",3
+"Yes","Extremely Conservative","Always","Strongly agree","Often","Often","Agree","Center",2
+"Yes","Extremely Liberal","Never","Neither agree nor disagree","Never","Never","Somewhat agree","Liberal",3
+"No","Center","Never","Neither agree nor disagree","Never","Always","Agree","Center",4
+"No","Liberal","Sometimes","Neither agree nor disagree","Sometimes","Sometimes","Agree","Liberal",5
+"Yes","Extremely Conservative","Often","Somewhat agree","Often","Often","Strongly agree","Fairly Conservative",3
+"Yes","Conservative","Sometimes","Neither agree nor disagree","Often","Often","Strongly agree","Conservative",4
+"Yes","Conservative","Sometimes","Neither agree nor disagree","Sometimes","Sometimes","Agree","Conservative",4
+"No","Conservative","Never","Neither agree nor disagree","Rarely","Rarely","Somewhat agree","Liberal",3
+"Yes","Conservative","Rarely","Neither agree nor disagree","Often","Rarely","Somewhat agree","Conservative",4
+"No","Extremely Conservative","Always","Somewhat disagree","Always","Always","Strongly agree","Extremely Conservative",4
+"No","Conservative","Sometimes","Somewhat disagree","Rarely","Sometimes","Neither agree nor disagree","Center",2
+"No","Fairly Conservative","Rarely","Neither agree nor disagree","Never","Sometimes","Somewhat agree","Conservative",4
+"No","Extremely Liberal","Rarely","Neither agree nor disagree","Rarely","Never","Agree","Extremely Liberal",3
+"No","Fairly Liberal","Sometimes","Agree","Sometimes","Often","Strongly agree","Fairly Liberal",4
+"Yes","Conservative","Sometimes","Agree","Rarely","Rarely","Agree","Conservative",2
+"Yes","Extremely Liberal","Often","Disagree","Sometimes","Often","Strongly agree","Center",5
+"No","Fairly Liberal","Rarely","Agree","Rarely","Rarely","Agree","Center",5
+"No","Liberal","Sometimes","Somewhat agree","Sometimes","Sometimes","Neither agree nor disagree","Conservative",3
+"No","Conservative","Rarely","Neither agree nor disagree","Rarely","Never","Somewhat agree","Conservative",4
+"No","Conservative","Sometimes","Neither agree nor disagree","Sometimes","Rarely","Neither agree nor disagree","Conservative",3
+"Yes","Extremely Conservative","Rarely","Neither agree nor disagree","Sometimes","Rarely","Somewhat agree","Center",2
+"No","Center","Rarely","Neither agree nor disagree","Rarely","Rarely","Agree","Center",3
+"Yes","Fairly Conservative","Sometimes","Somewhat disagree","Never","Sometimes","Somewhat agree","Center",3
+"No","Center","Sometimes","Neither agree nor disagree","Rarely","Sometimes","Agree","Center",4
+"Yes","Center","Rarely","Neither agree nor disagree","Sometimes","Rarely","Neither agree nor disagree","Center",3
+"No","Extremely Liberal","Rarely","Neither agree nor disagree","Never","Rarely","Strongly disagree","Extremely Liberal",3
+"No","Center","Rarely","Neither agree nor disagree","Rarely","Rarely","Neither agree nor disagree","Center",3
+"Yes","Liberal","Often","Strongly disagree","Sometimes","Sometimes","Agree","Center",4
+"Yes","Liberal","Always","Neither agree nor disagree","Often","Often","Agree","Center",3
+"Yes","Fairly Conservative","Rarely","Somewhat agree","Rarely","Sometimes","Neither agree nor disagree","Conservative",4
+"No",NA,"Sometimes","Neither agree nor disagree","Rarely","Rarely","Somewhat agree","Liberal",3
+"No","Center","Never","Neither agree nor disagree","Rarely","Never","Neither agree nor disagree","Center",3
+"Yes","Extremely Liberal","Sometimes","Neither agree nor disagree","Rarely","Rarely","Agree","Center",5
+"No","Fairly Liberal","Sometimes","Disagree","Rarely","Sometimes","Somewhat agree","Liberal",4
+"No","Center","Sometimes","Agree","Sometimes","Rarely","Neither agree nor disagree","Conservative",3
+"Yes","Liberal","Often","Agree","Sometimes","Sometimes","Agree","Conservative",4
+"No","Conservative","Sometimes","Neither agree nor disagree","Often","Sometimes","Agree","Liberal",3
+"Yes","Extremely Liberal","Often","Somewhat disagree","Always","Always","Strongly agree","Extremely Liberal",5
+"Yes","Extremely Conservative","Sometimes","Neither agree nor disagree","Sometimes","Sometimes","Neither agree nor disagree","Extremely Conservative",1
+"No","Center","Rarely","Neither agree nor disagree","Sometimes","Sometimes","Neither agree nor disagree","Center",3
+"Yes","Conservative","Sometimes","Agree","Sometimes","Sometimes","Agree","Conservative",2
+"Yes","Extremely Liberal","Often","Agree","Rarely","Often","Somewhat agree","Extremely Liberal",3
+"No","Extremely Liberal","Never","Agree","Sometimes","Never","Agree","Liberal",4
+"No","Liberal","Never","Somewhat agree","Never","Rarely","Somewhat agree","Conservative",2
+"No","Extremely Conservative","Sometimes","Neither agree nor disagree","Sometimes","Sometimes","Somewhat agree","Extremely Conservative",4
+"Yes","Center","Often","Neither agree nor disagree","Often","Often","Neither agree nor disagree","Center",3
+"Yes","Conservative","Always","Strongly agree","Often","Often","Strongly agree","Conservative",2
+"Yes","Extremely Conservative","Never","Strongly agree","Never","Never","Agree","Center",3
+"Yes","Extremely Conservative","Rarely","Agree","Never","Sometimes","Neither agree nor disagree","Center",4
+"Yes","Center","Often","Agree","Often","Sometimes","Strongly agree","Fairly Conservative",5
+"Yes","Extremely Conservative","Rarely","Strongly agree","Sometimes","Sometimes","Somewhat agree","Center",4
+"Yes","Center","Often","Neither agree nor disagree","Sometimes","Often","Strongly agree","Center",4
+"Yes","Conservative","Sometimes","Disagree","Never","Never","Strongly agree","Center",4
+"Yes","Extremely Liberal","Always","Disagree","Often","Always","Strongly agree","Extremely Liberal",5
+"Yes","Center","Rarely","Neither agree nor disagree","Rarely","Rarely","Neither agree nor disagree","Center",3
+"Yes","Conservative","Always","Neither agree nor disagree","Sometimes","Often","Somewhat agree","Conservative",3
+"Yes","Extremely Liberal","Always","Strongly disagree","Often","Always","Strongly agree","Extremely Liberal",5
+"Yes","Extremely Liberal","Often","Disagree","Often","Often","Strongly agree","Extremely Liberal",4
+"Yes","Liberal","Sometimes","Disagree","Rarely","Often","Strongly agree","Liberal",5
+"No","Fairly Conservative","Rarely","Somewhat agree","Never","Rarely","Somewhat agree","Center",4
+NA,NA,"Rarely","Agree","Rarely","Sometimes",NA,NA,NA
+"Yes","Conservative","Sometimes","Agree","Rarely","Sometimes","Agree","Conservative",3
+"Yes","Extremely Liberal","Often","Somewhat agree","Often","Often","Agree","Extremely Liberal",4
+"Yes","Extremely Conservative","Often","Strongly agree","Always","Always","Strongly agree","Fairly Conservative",2
+"Yes","Center","Often","Disagree","Rarely","Sometimes","Strongly agree","Center",5
+"Yes","Fairly Conservative","Often","Agree","Often","Often","Strongly agree","Fairly Conservative",5
+"Yes","Extremely Liberal","Sometimes","Strongly agree","Often","Always","Strongly agree","Extremely Liberal",5
+"No","Center","Rarely","Agree","Never","Rarely","Neither agree nor disagree","Center",3
+"Yes","Liberal","Often","Disagree","Sometimes","Often","Neither agree nor disagree","Liberal",3
+"Yes","Conservative","Sometimes","Somewhat agree","Rarely","Sometimes","Somewhat disagree","Center",2
+"Yes","Conservative","Always","Somewhat disagree","Sometimes","Always","Agree","Center",4
+"Yes","Extremely Conservative","Always","Strongly disagree","Sometimes","Always","Strongly agree","Extremely Conservative",5
+"Yes","Extremely Conservative","Often","Strongly agree","Often","Sometimes","Strongly agree","Center",4
+"Yes","Conservative","Rarely","Somewhat disagree","Rarely","Sometimes","Somewhat agree","Conservative",3
+"Yes","Extremely Liberal","Always","Agree","Always","Always","Strongly agree","Extremely Liberal",4
+"Yes","Extremely Liberal","Always","Neither agree nor disagree","Always","Always","Strongly agree","Extremely Liberal",5
+"Yes","Extremely Conservative","Often","Agree","Often","Often","Agree","Center",4
+"Yes","Center","Always","Disagree","Sometimes","Often","Somewhat agree","Liberal",4
+"No","Extremely Conservative","Sometimes","Somewhat disagree","Sometimes","Sometimes","Agree","Center",5
+"Yes","Conservative","Often","Neither agree nor disagree","Sometimes","Often","Agree","Center",4
+"Yes","Extremely Conservative","Always","Disagree","Always","Always","Strongly agree","Extremely Conservative",5
+"No","Center","Sometimes","Neither agree nor disagree","Rarely","Rarely","Agree","Center",3
+"Yes","Fairly Conservative","Always","Strongly agree","Often","Always","Strongly agree","Fairly Conservative",1
+"Yes","Fairly Conservative","Often","Agree","Sometimes","Often","Neither agree nor disagree","Center",4
+"Yes","Liberal","Always","Somewhat disagree","Often","Always","Strongly agree","Center",4
+"No","Fairly Liberal","Rarely","Neither agree nor disagree","Rarely","Never","Somewhat agree","Center",3

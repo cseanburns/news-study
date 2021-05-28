@@ -103,5 +103,4 @@ fit.apnews.lm <- lm(Q44 ~ Q11 +
                   data = apnews)
 
 summary(fit.apnews.lm)
-forest_model(fit.apnews.lm)
 round(confint(fit.apnews.lm, level = 0.95), 2)

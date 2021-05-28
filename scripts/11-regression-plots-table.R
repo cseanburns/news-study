@@ -34,6 +34,24 @@ forest_model(fit.foxnews.lm,
   theme_pubclean()
 dev.off()
 
+## AP News plot
+tiff("plots/apnews-regression-plot.tif",
+     width = 3860,
+     height = 2160,
+     pointsize = 12,
+     res = 300)
+forest_model(fit.apnews.lm,
+             format_options = forest_model_format_options(shape = 20)) +
+  labs(title = "AP News",
+       x = NULL,
+       y = NULL) +
+  geom_label(x = -1.5, y = 44, label = "Fake") +
+  geom_label(x = 0.5, y = 44, label = "Not Fake") +
+  scale_y_discrete(labels = NULL) +
+  theme_pubclean()
+dev.off()
+
+## NPR plot
 tiff("plots/npr-regression-plot.tif",
      width = 3860,
      height = 2160,

@@ -1,5 +1,11 @@
 # News Study
 
+**This repository produced one paper.
+See the linke to the *First Monday* paper below.
+Future papers based on this project will be
+based on different repositories.
+This repo is now in archive (read-only) mode.**
+
 This is a research project studying perceptions of fake news.
 The primary research question involved whether participants
 judged a news story as fake news dependent upon whether the

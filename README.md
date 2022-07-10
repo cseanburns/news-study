@@ -1,14 +1,38 @@
 # News Study
 
-This is a research project studying perceptions of fake news. The primary research question involved whether participants judged a news story as fake news dependent upon whether the article was presented (1) as it was published, (2) with source, author, and like data removed, (3) with presentation/formatting minimized, and (4) with source, author, and like data removed and also with presentation/formatting minimized. Any advertisements from the news sources were removed in all groups.
+This is a research project studying perceptions of fake news.
+The primary research question involved whether participants
+judged a news story as fake news dependent upon whether the
+article was presented
+(1) as it was published,
+(2) with source, author, and like data removed,
+(3) with presentation/formatting minimized, and
+(4) with source, author, and like data removed and
+also with presentation/formatting minimized.
+Any advertisements from the news sources were removed in all groups.
 
-The secondary research question investigated a range of variables associated with political persuasion, media bias, and like and perceptions of fake news.
+The secondary research question investigated a
+range of variables associated with political persuasion,
+media bias, and like and perceptions of fake news.
 
-Four studies were conducted over the course of a year and a half. The first study was directly replicated three additional times. Each study was based on the news articles listed in the **Articles** section below.
+Four studies were conducted over the course of a year and a half.
+The first study was directly replicated three additional times.
+Each study was based on the news articles listed in the
+**Articles** section below.
 
 This repository contains the code and not the data for the project.
 
-## Articles
+## Manuscript
+
+The code and data for this project has produced the
+following publications:
+
+Burns, C.S., Kaufmann, R., & Limperos, A. (2021).
+Mixed findings in directly replicated experimental studies on fake news.
+*First Monday, 26*(12).
+[https://doi.org/10.5210/fm.v26i12.11774](https://doi.org/10.5210/fm.v26i12.11774)
+
+## Article Sources
 
 We used the following news articles in the study:
 

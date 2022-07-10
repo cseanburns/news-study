@@ -1,7 +1,7 @@
 # News Study
 
 **This repository produced one paper.
-See the linke to the *First Monday* paper below.
+See the link to the *First Monday* paper below.
 Future papers based on this project will be
 based on different repositories.
 This repo is now in archive (read-only) mode.**
